@@ -100,5 +100,11 @@ built.
 
 ## Licence and citation
 
-Code and artefacts: Creative Commons Attribution 4.0 (`LICENSE`), attributed to the authors of the CAPRA
-manuscript. See `CITATION.cff`. The paper is under review; please cite the repository only (no DOI yet).
+Code and artefacts: Creative Commons Attribution 4.0 International (CC BY 4.0). `LICENSE` holds the legal code
+verbatim and unmodified, so that licence detection and reuse work without a custom header in the way;
+`SPDX-License-Identifier: CC-BY-4.0`.
+
+Copyright (c) 2026 the authors of the CAPRA manuscript. Attribution, as the licence requires: "the authors of
+the CAPRA manuscript (CAPRA: capacity-aware parity risk allocation, under review)". Once the paper is
+published, cite the article version of record instead. See `CITATION.cff`; the paper is under review, so please
+cite the repository only (no DOI yet).
