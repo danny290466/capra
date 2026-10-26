@@ -1,0 +1,33 @@
+{
+  "args": {
+    "model": "qwen3.8-flash",
+    "base_url": "https://opencode.ai/zen/go/v1",
+    "thinking": "none",
+    "json_mode": true,
+    "max_tokens": 200,
+    "temperature": 0.0,
+    "key_env": "OPENCODE_GO_API_KEY",
+    "opencode": true,
+    "out": "outputs/pool/llm_qwen38_flash",
+    "workers": 24,
+    "limit": 0,
+    "sets": "en_dev,en_test,vi_dev,vi_test,tr_dev,tr_test",
+    "data_dir": "data/killtest"
+  },
+  "stats": {
+    "prompt_tokens": 1409176,
+    "completion_tokens": 1524262,
+    "calls": 6548,
+    "parse_fail": 13,
+    "refused_by_policy": 13
+  },
+  "elapsed_s": 1956.2,
+  "sets": [
+    "en_dev",
+    "en_test",
+    "vi_dev",
+    "vi_test",
+    "tr_dev",
+    "tr_test"
+  ]
+}

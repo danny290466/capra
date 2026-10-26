@@ -1,0 +1,225 @@
+{
+ "per_seed": {
+  "42": {
+   "main": {
+    "GLOBAL": [
+     0.7283,
+     0.7283
+    ],
+    "EQUAL-COV": [
+     0.7771,
+     0.6974
+    ],
+    "CAPRA-parity": [
+     0.5029,
+     0.8281
+    ],
+    "CAPRA-composition": [
+     0.7771,
+     0.6974
+    ],
+    "design_D_parity_pp": 0.372,
+    "curve_at_parity_en_pp": 0.6816,
+    "curve_at_parity_vi_pp": 0.3096
+   },
+   "buggy": {
+    "GLOBAL": [
+     0.7283,
+     0.7283
+    ],
+    "EQUAL-COV": [
+     0.7771,
+     0.6974
+    ],
+    "CAPRA-parity": [
+     0.5029,
+     0.8281
+    ],
+    "CAPRA-composition": [
+     0.7771,
+     0.6974
+    ],
+    "design_D_parity_pp": 0.372,
+    "curve_at_parity_en_pp": 0.6816,
+    "curve_at_parity_vi_pp": 0.3096
+   }
+  },
+  "43": {
+   "main": {
+    "GLOBAL": [
+     0.6528,
+     0.6528
+    ],
+    "EQUAL-COV": [
+     0.7023,
+     0.6139
+    ],
+    "CAPRA-parity": [
+     0.5013,
+     0.7281
+    ],
+    "CAPRA-composition": [
+     0.7023,
+     0.6139
+    ],
+    "design_D_parity_pp": 0.1085,
+    "curve_at_parity_en_pp": 0.3802,
+    "curve_at_parity_vi_pp": 0.2717
+   },
+   "buggy": {
+    "GLOBAL": [
+     0.6528,
+     0.6528
+    ],
+    "EQUAL-COV": [
+     0.7023,
+     0.6139
+    ],
+    "CAPRA-parity": [
+     0.5013,
+     0.7281
+    ],
+    "CAPRA-composition": [
+     0.7023,
+     0.6139
+    ],
+    "design_D_parity_pp": 0.1085,
+    "curve_at_parity_en_pp": 0.3802,
+    "curve_at_parity_vi_pp": 0.2717
+   }
+  },
+  "44": {
+   "main": {
+    "GLOBAL": [
+     0.6883,
+     0.6883
+    ],
+    "EQUAL-COV": [
+     0.7263,
+     0.6575
+    ],
+    "CAPRA-parity": [
+     0.5027,
+     0.782
+    ],
+    "CAPRA-composition": [
+     0.7263,
+     0.6575
+    ],
+    "design_D_parity_pp": 0.4405,
+    "curve_at_parity_en_pp": 0.5106,
+    "curve_at_parity_vi_pp": 0.9511
+   },
+   "buggy": {
+    "GLOBAL": [
+     0.6883,
+     0.6883
+    ],
+    "EQUAL-COV": [
+     0.7263,
+     0.6575
+    ],
+    "CAPRA-parity": [
+     0.5027,
+     0.782
+    ],
+    "CAPRA-composition": [
+     0.7263,
+     0.6575
+    ],
+    "design_D_parity_pp": 0.4405,
+    "curve_at_parity_en_pp": 0.5106,
+    "curve_at_parity_vi_pp": 0.9511
+   }
+  },
+  "45": {
+   "main": {
+    "GLOBAL": [
+     0.7421,
+     0.7421
+    ],
+    "EQUAL-COV": [
+     0.8024,
+     0.7064
+    ],
+    "CAPRA-parity": [
+     0.5038,
+     0.827
+    ],
+    "CAPRA-composition": [
+     0.8024,
+     0.7064
+    ],
+    "design_D_parity_pp": 0.2169,
+    "curve_at_parity_en_pp": 0.4223,
+    "curve_at_parity_vi_pp": 0.2053
+   },
+   "buggy": {
+    "GLOBAL": [
+     0.7421,
+     0.7421
+    ],
+    "EQUAL-COV": [
+     0.8024,
+     0.7064
+    ],
+    "CAPRA-parity": [
+     0.5038,
+     0.827
+    ],
+    "CAPRA-composition": [
+     0.8024,
+     0.7064
+    ],
+    "design_D_parity_pp": 0.2169,
+    "curve_at_parity_en_pp": 0.4223,
+    "curve_at_parity_vi_pp": 0.2053
+   }
+  },
+  "46": {
+   "main": {
+    "GLOBAL": [
+     0.7099,
+     0.7099
+    ],
+    "EQUAL-COV": [
+     0.7812,
+     0.652
+    ],
+    "CAPRA-parity": [
+     0.5025,
+     0.7909
+    ],
+    "CAPRA-composition": [
+     0.7812,
+     0.652
+    ],
+    "design_D_parity_pp": 0.0341,
+    "curve_at_parity_en_pp": 0.4369,
+    "curve_at_parity_vi_pp": 0.471
+   },
+   "buggy": {
+    "GLOBAL": [
+     0.7099,
+     0.7099
+    ],
+    "EQUAL-COV": [
+     0.7812,
+     0.652
+    ],
+    "CAPRA-parity": [
+     0.5025,
+     0.7909
+    ],
+    "CAPRA-composition": [
+     0.7812,
+     0.652
+    ],
+    "design_D_parity_pp": 0.0341,
+    "curve_at_parity_en_pp": 0.4369,
+    "curve_at_parity_vi_pp": 0.471
+   }
+  }
+ },
+ "parity_identical": true
+}

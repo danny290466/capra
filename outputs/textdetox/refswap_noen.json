@@ -1,0 +1,87 @@
+{
+  "budget": 0.05,
+  "pairs": {
+    "xlmr_base:de-ar": {
+      "n_dev": {
+        "de": 3375,
+        "ar": 3375
+      },
+      "n_test": {
+        "de": 3375,
+        "ar": 3375
+      },
+      "pooled_gap_test_pp": -13.757,
+      "parity_first_gap_signed_pp": -12.099,
+      "parity_first_gap_abs_pp": 12.099,
+      "queue_share_second": 0.997,
+      "load_items": 0.0501,
+      "min_parity_capacity": 0.29,
+      "quality": {
+        "de": {
+          "acc": 0.9001,
+          "auc": NaN
+        },
+        "ar": {
+          "acc": 0.7535,
+          "auc": NaN
+        }
+      }
+    },
+    "xlmr_base:ru-uk": {
+      "n_dev": {
+        "ru": 3375,
+        "uk": 3375
+      },
+      "n_test": {
+        "ru": 3375,
+        "uk": 3375
+      },
+      "pooled_gap_test_pp": -5.073,
+      "parity_first_gap_signed_pp": -2.73,
+      "parity_first_gap_abs_pp": 2.73,
+      "queue_share_second": 0.995,
+      "load_items": 0.0563,
+      "min_parity_capacity": 0.11,
+      "quality": {
+        "ru": {
+          "acc": 0.9603,
+          "auc": NaN
+        },
+        "uk": {
+          "acc": 0.8978,
+          "auc": NaN
+        }
+      }
+    },
+    "xlmr_base:de-ru": {
+      "n_dev": {
+        "de": 3375,
+        "ru": 3375
+      },
+      "n_test": {
+        "de": 3375,
+        "ru": 3375
+      },
+      "pooled_gap_test_pp": 4.814,
+      "parity_first_gap_signed_pp": 3.132,
+      "parity_first_gap_abs_pp": 3.132,
+      "queue_share_second": 0.006,
+      "load_items": 0.0459,
+      "min_parity_capacity": 0.17,
+      "quality": {
+        "de": {
+          "acc": 0.9001,
+          "auc": NaN
+        },
+        "ru": {
+          "acc": 0.9603,
+          "auc": NaN
+        }
+      }
+    }
+  },
+  "note": "pairs with NO English on either side",
+  "roots": [
+    "outputs/textdetox_noen/xlmr_base"
+  ]
+}

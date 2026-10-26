@@ -1,0 +1,108 @@
+{
+  "generated": "2026-09-24T10:54:27",
+  "boot": 400,
+  "rows": [
+    {
+      "root": "outputs/textdetox/xlmr_base",
+      "pair": [
+        "en",
+        "de"
+      ],
+      "n_seeds": 5,
+      "capacity": 0.125,
+      "ci": [
+        0.095,
+        0.15
+      ],
+      "censored_replicates": 0,
+      "n_ok": 400,
+      "r_nat": 0.03585185185185185,
+      "median": 0.125
+    },
+    {
+      "root": "outputs/textdetox/xlmr_base",
+      "pair": [
+        "en",
+        "uk"
+      ],
+      "n_seeds": 5,
+      "capacity": 0.09000000000000001,
+      "ci": [
+        0.07,
+        0.1051249999999999
+      ],
+      "censored_replicates": 0,
+      "n_ok": 400,
+      "r_nat": 0.03585185185185185,
+      "median": 0.09000000000000001
+    },
+    {
+      "root": "outputs/textdetox/xlmr_base",
+      "pair": [
+        "en",
+        "ar"
+      ],
+      "n_seeds": 5,
+      "capacity": null,
+      "ci": [
+        0.37625,
+        0.4
+      ],
+      "censored_replicates": 374,
+      "n_ok": 26,
+      "r_nat": 0.03585185185185185,
+      "median": 0.395
+    },
+    {
+      "root": "outputs/textdetox/xlmr_base",
+      "pair": [
+        "en",
+        "hi"
+      ],
+      "n_seeds": 5,
+      "capacity": 0.049999999999999996,
+      "ci": [
+        0.034999999999999996,
+        0.07
+      ],
+      "censored_replicates": 0,
+      "n_ok": 400,
+      "r_nat": 0.03585185185185185,
+      "median": 0.049999999999999996
+    },
+    {
+      "root": "outputs/textdetox/xlmr_base",
+      "pair": [
+        "en",
+        "zh"
+      ],
+      "n_seeds": 5,
+      "capacity": null,
+      "ci": [
+        null,
+        null
+      ],
+      "censored_replicates": 400,
+      "n_ok": 0,
+      "r_nat": 0.03585185185185185,
+      "median": null
+    },
+    {
+      "root": "outputs/textdetox/xlmr_base",
+      "pair": [
+        "en",
+        "ru"
+      ],
+      "n_seeds": 5,
+      "capacity": 0.015,
+      "ci": [
+        0.005,
+        0.030000000000000002
+      ],
+      "censored_replicates": 0,
+      "n_ok": 400,
+      "r_nat": 0.02637037037037037,
+      "median": 0.015
+    }
+  ]
+}

@@ -1,0 +1,1053 @@
+{
+  "generated": "2026-09-23T11:39:46",
+  "detector": "outputs/textdetox/xlmr_large",
+  "lang_a": "en",
+  "mode": "NAT",
+  "budget": 0.05,
+  "pairs": {
+    "de": {
+      "composition_target": {
+        "0.4": {
+          "parity_first_D_test": 0.023121226260698784,
+          "composition_first_D_test": 0.05877201668532987,
+          "composition_first_K_test": 0.3128491620111733,
+          "price_of_composition": 0.03565079042463109
+        },
+        "0.5": {
+          "parity_first_D_test": 0.023121226260698784,
+          "composition_first_D_test": 0.05515881424074042,
+          "composition_first_K_test": 0.38873239436619705,
+          "price_of_composition": 0.03203758798004164
+        },
+        "0.6": {
+          "parity_first_D_test": 0.023121226260698784,
+          "composition_first_D_test": 0.04838394284835064,
+          "composition_first_K_test": 0.5014662756598237,
+          "price_of_composition": 0.025262716587651855
+        }
+      },
+      "review_cost": {
+        "1.0": {
+          "parity_first_D_test": 0.023121226260698784,
+          "composition_first_D_test": 0.05515881424074042,
+          "price_of_composition": 0.03203758798004164,
+          "parity_first_load": 0.05
+        },
+        "1.3": {
+          "parity_first_D_test": 0.03046552653556627,
+          "composition_first_D_test": 0.05302662887070084,
+          "price_of_composition": 0.022561102335134565,
+          "parity_first_load": 0.05
+        },
+        "1.5": {
+          "parity_first_D_test": 0.03292318222385258,
+          "composition_first_D_test": 0.05323785859800925,
+          "price_of_composition": 0.020314676374156675,
+          "parity_first_load": 0.05
+        },
+        "2.0": {
+          "parity_first_D_test": 0.037937680093491945,
+          "composition_first_D_test": 0.0521936188940417,
+          "price_of_composition": 0.014255938800549754,
+          "parity_first_load": 0.05
+        }
+      },
+      "traffic_mix": {
+        "0.3": {
+          "parity_first_D_test": 0.01168427471775784,
+          "parity_first_D_signed_test": -0.01168427471775784,
+          "parity_first_K_test": 0.9940119760479038,
+          "min_capacity": 0.22
+        },
+        "0.5": {
+          "parity_first_D_test": 0.023121226260698784,
+          "parity_first_D_signed_test": -0.023121226260698784,
+          "parity_first_K_test": 0.9903846153846149,
+          "min_capacity": 0.22
+        },
+        "0.7": {
+          "parity_first_D_test": 0.03088954453130017,
+          "parity_first_D_signed_test": -0.03088954453130017,
+          "parity_first_K_test": 0.986301369863013,
+          "min_capacity": 0.22
+        }
+      },
+      "calibration_size": {
+        "250": {
+          "D_test_mean": 0.019316456993048802,
+          "D_test_sd": 0.006378450608304908,
+          "min_capacity_mean": 0.18666666666666668,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.016633666623489037,
+            0.014717598897257787,
+            0.02659810545839958
+          ]
+        },
+        "500": {
+          "D_test_mean": 0.010168598676840257,
+          "D_test_sd": 0.0018712060944232126,
+          "min_capacity_mean": 0.17333333333333334,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.008944235763272357,
+            0.009238990965249938,
+            0.012322569301998473
+          ]
+        },
+        "1000": {
+          "D_test_mean": 0.010379254739961312,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": 0.155,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.010379254739961312,
+            0.010379254739961312,
+            0.010379254739961312
+          ]
+        },
+        "2000": {
+          "D_test_mean": 0.010379254739961312,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": 0.155,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.010379254739961312,
+            0.010379254739961312,
+            0.010379254739961312
+          ]
+        },
+        "full": {
+          "D_test_mean": 0.010379254739961312,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": 0.155,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.010379254739961312,
+            0.010379254739961312,
+            0.010379254739961312
+          ]
+        }
+      },
+      "seed_spread": [
+        {
+          "seed_dir": "seed42",
+          "D_test": 0.014736465808549135,
+          "K_test": 0.9354838709677423,
+          "signed_gap": -0.014736465808549135
+        },
+        {
+          "seed_dir": "seed43",
+          "D_test": 0.008774630541871921,
+          "K_test": 0.9565217391304345,
+          "signed_gap": -0.008774630541871921
+        },
+        {
+          "seed_dir": "seed44",
+          "D_test": 0.023699763882302903,
+          "K_test": 0.9855072463768111,
+          "signed_gap": -0.023699763882302903
+        },
+        {
+          "seed_dir": "seed45",
+          "D_test": 0.026086619776262095,
+          "K_test": 0.9841269841269836,
+          "signed_gap": -0.026086619776262095
+        },
+        {
+          "seed_dir": "seed46",
+          "D_test": 0.03205180614536692,
+          "K_test": 0.9830508474576266,
+          "signed_gap": -0.03205180614536692
+        }
+      ],
+      "seed_summary": {
+        "n_seeds": 5,
+        "D_mean": 0.021069857230870598,
+        "D_sd": 0.009273240582920545,
+        "K_mean": 0.9689381376119197,
+        "K_sd": 0.022236006334663775
+      }
+    },
+    "uk": {
+      "composition_target": {
+        "0.4": {
+          "parity_first_D_test": 0.002811236067913482,
+          "composition_first_D_test": 0.032191899095756135,
+          "composition_first_K_test": 0.35937499999999983,
+          "price_of_composition": 0.029380663027842653
+        },
+        "0.5": {
+          "parity_first_D_test": 0.002811236067913482,
+          "composition_first_D_test": 0.028659794180430673,
+          "composition_first_K_test": 0.430446194225722,
+          "price_of_composition": 0.02584855811251719
+        },
+        "0.6": {
+          "parity_first_D_test": 0.002811236067913482,
+          "composition_first_D_test": 0.0223687431867341,
+          "composition_first_K_test": 0.55026455026455,
+          "price_of_composition": 0.01955750711882062
+        }
+      },
+      "review_cost": {
+        "1.0": {
+          "parity_first_D_test": 0.002811236067913482,
+          "composition_first_D_test": 0.028659794180430673,
+          "price_of_composition": 0.02584855811251719,
+          "parity_first_load": 0.05
+        },
+        "1.3": {
+          "parity_first_D_test": 0.006480891028234327,
+          "composition_first_D_test": 0.02642337210407194,
+          "price_of_composition": 0.019942481075837612,
+          "parity_first_load": 0.05
+        },
+        "1.5": {
+          "parity_first_D_test": 0.008166774609206631,
+          "composition_first_D_test": 0.02665774100843552,
+          "price_of_composition": 0.018490966399228887,
+          "parity_first_load": 0.05
+        },
+        "2.0": {
+          "parity_first_D_test": 0.011438660033182196,
+          "composition_first_D_test": 0.026609236147612122,
+          "price_of_composition": 0.015170576114429925,
+          "parity_first_load": 0.05
+        }
+      },
+      "traffic_mix": {
+        "0.3": {
+          "parity_first_D_test": 0.007580007283553868,
+          "parity_first_D_signed_test": 0.007580007283553868,
+          "parity_first_K_test": 0.9949409780775714,
+          "min_capacity": 0.2
+        },
+        "0.5": {
+          "parity_first_D_test": 0.002811236067913482,
+          "parity_first_D_signed_test": -0.002811236067913482,
+          "parity_first_K_test": 0.9909365558912382,
+          "min_capacity": 0.2
+        },
+        "0.7": {
+          "parity_first_D_test": 0.007210639557814119,
+          "parity_first_D_signed_test": -0.007210639557814119,
+          "parity_first_K_test": 0.9878542510121451,
+          "min_capacity": 0.2
+        }
+      },
+      "calibration_size": {
+        "250": {
+          "D_test_mean": 0.006615236559508968,
+          "D_test_sd": 0.004571136105584076,
+          "min_capacity_mean": 0.1366666666666667,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.0018989873471020463,
+            0.00692079440172455,
+            0.011025927929700308
+          ]
+        },
+        "500": {
+          "D_test_mean": 0.0019882800110589288,
+          "D_test_sd": 0.0028395522317134483,
+          "min_capacity_mean": 0.145,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.0001262821504046177,
+            0.0005820198945926183,
+            0.005256537988179551
+          ]
+        },
+        "1000": {
+          "D_test_mean": 0.0038171963529984657,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": 0.12000000000000001,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.0038171963529984657,
+            0.0038171963529984657,
+            0.0038171963529984657
+          ]
+        },
+        "2000": {
+          "D_test_mean": 0.0038171963529984657,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": 0.12000000000000001,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.0038171963529984657,
+            0.0038171963529984657,
+            0.0038171963529984657
+          ]
+        },
+        "full": {
+          "D_test_mean": 0.0038171963529984657,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": 0.12000000000000001,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.0038171963529984657,
+            0.0038171963529984657,
+            0.0038171963529984657
+          ]
+        }
+      },
+      "seed_spread": [
+        {
+          "seed_dir": "seed42",
+          "D_test": 0.005690285869123422,
+          "K_test": 0.9459459459459463,
+          "signed_gap": 0.005690285869123422
+        },
+        {
+          "seed_dir": "seed43",
+          "D_test": 0.007597117794486217,
+          "K_test": 0.9571428571428569,
+          "signed_gap": 0.007597117794486217
+        },
+        {
+          "seed_dir": "seed44",
+          "D_test": 0.006196543899458895,
+          "K_test": 0.9843749999999996,
+          "signed_gap": 0.006196543899458895
+        },
+        {
+          "seed_dir": "seed45",
+          "D_test": 0.003483845190588253,
+          "K_test": 0.9850746268656712,
+          "signed_gap": -0.003483845190588253
+        },
+        {
+          "seed_dir": "seed46",
+          "D_test": 0.01167633787806941,
+          "K_test": 0.9855072463768111,
+          "signed_gap": -0.01167633787806941
+        }
+      ],
+      "seed_summary": {
+        "n_seeds": 5,
+        "D_mean": 0.006928826126345239,
+        "D_sd": 0.003038239394072147,
+        "K_mean": 0.971609135266257,
+        "K_sd": 0.018743777285335845
+      }
+    },
+    "ru": {
+      "composition_target": {
+        "0.4": {
+          "parity_first_D_test": 0.01188368659922967,
+          "composition_first_D_test": 0.009172249591884474,
+          "composition_first_K_test": 0.3819095477386932,
+          "price_of_composition": -0.002711437007345196
+        },
+        "0.5": {
+          "parity_first_D_test": 0.01188368659922967,
+          "composition_first_D_test": 0.01272695672049027,
+          "composition_first_K_test": 0.4574999999999998,
+          "price_of_composition": 0.0008432701212605989
+        },
+        "0.6": {
+          "parity_first_D_test": 0.01188368659922967,
+          "composition_first_D_test": 0.01801143979496039,
+          "composition_first_K_test": 0.5812807881773399,
+          "price_of_composition": 0.0061277531957307195
+        }
+      },
+      "review_cost": {
+        "1.0": {
+          "parity_first_D_test": 0.01188368659922967,
+          "composition_first_D_test": 0.01272695672049027,
+          "price_of_composition": 0.0008432701212605989,
+          "parity_first_load": 0.05
+        },
+        "1.3": {
+          "parity_first_D_test": 0.013621532602542327,
+          "composition_first_D_test": 0.015108963310493384,
+          "price_of_composition": 0.0014874307079510568,
+          "parity_first_load": 0.05
+        },
+        "1.5": {
+          "parity_first_D_test": 0.012112925859515084,
+          "composition_first_D_test": 0.014706407679205091,
+          "price_of_composition": 0.0025934818196900068,
+          "parity_first_load": 0.05
+        },
+        "2.0": {
+          "parity_first_D_test": 0.015274291998268075,
+          "composition_first_D_test": 0.015858683331801612,
+          "price_of_composition": 0.0005843913335335377,
+          "parity_first_load": 0.05
+        }
+      },
+      "traffic_mix": {
+        "0.3": {
+          "parity_first_D_test": 0.011815875403359048,
+          "parity_first_D_signed_test": 0.011815875403359048,
+          "parity_first_K_test": 0.4433249370277079,
+          "min_capacity": 0.005
+        },
+        "0.5": {
+          "parity_first_D_test": 0.01188368659922967,
+          "parity_first_D_signed_test": 0.01188368659922967,
+          "parity_first_K_test": 0.43031784841075815,
+          "min_capacity": 0.005
+        },
+        "0.7": {
+          "parity_first_D_test": 0.010973621635588182,
+          "parity_first_D_signed_test": 0.010973621635588182,
+          "parity_first_K_test": 0.42380952380952386,
+          "min_capacity": 0.005
+        }
+      },
+      "calibration_size": {
+        "250": {
+          "D_test_mean": 0.01127500881724379,
+          "D_test_sd": 0.004391071064659438,
+          "min_capacity_mean": 0.04,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.007634837823517067,
+            0.01615178720794067,
+            0.010038401420273634
+          ]
+        },
+        "500": {
+          "D_test_mean": 0.0059777062527351,
+          "D_test_sd": 0.0049678183428087325,
+          "min_capacity_mean": 0.016666666666666666,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.009093208687771621,
+            0.008591220133494344,
+            0.00024868993693933673
+          ]
+        },
+        "1000": {
+          "D_test_mean": 0.0011282625628787225,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": 0.015,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.0011282625628787225,
+            0.0011282625628787225,
+            0.0011282625628787225
+          ]
+        },
+        "2000": {
+          "D_test_mean": 0.0011282625628787225,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": 0.015,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.0011282625628787225,
+            0.0011282625628787225,
+            0.0011282625628787225
+          ]
+        },
+        "full": {
+          "D_test_mean": 0.0011282625628787225,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": 0.015,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.0011282625628787225,
+            0.0011282625628787225,
+            0.0011282625628787225
+          ]
+        }
+      },
+      "seed_spread": [
+        {
+          "seed_dir": "seed42",
+          "D_test": 0.005830918457699426,
+          "K_test": 0.2159090909090909,
+          "signed_gap": 0.005830918457699426
+        },
+        {
+          "seed_dir": "seed43",
+          "D_test": 0.006597078079595072,
+          "K_test": 0.34117647058823525,
+          "signed_gap": 0.006597078079595072
+        },
+        {
+          "seed_dir": "seed44",
+          "D_test": 0.01382592483563929,
+          "K_test": 0.5890410958904112,
+          "signed_gap": 0.01382592483563929
+        },
+        {
+          "seed_dir": "seed45",
+          "D_test": 0.014217868656805115,
+          "K_test": 0.481012658227848,
+          "signed_gap": 0.014217868656805115
+        },
+        {
+          "seed_dir": "seed46",
+          "D_test": 0.016848675499985068,
+          "K_test": 0.6463414634146342,
+          "signed_gap": 0.016848675499985068
+        }
+      ],
+      "seed_summary": {
+        "n_seeds": 5,
+        "D_mean": 0.011464093105944793,
+        "D_sd": 0.0049390218754947965,
+        "K_mean": 0.45469615580604394,
+        "K_sd": 0.17704168043742713
+      }
+    },
+    "ar": {
+      "composition_target": {
+        "0.4": {
+          "parity_first_D_test": 0.14804554591883848,
+          "composition_first_D_test": 0.18806684533809054,
+          "composition_first_K_test": 0.347480106100796,
+          "price_of_composition": 0.04002129941925206
+        },
+        "0.5": {
+          "parity_first_D_test": 0.14804554591883848,
+          "composition_first_D_test": 0.18131997379260564,
+          "composition_first_K_test": 0.4668304668304668,
+          "price_of_composition": 0.033274427873767165
+        },
+        "0.6": {
+          "parity_first_D_test": 0.14804554591883848,
+          "composition_first_D_test": 0.17499449898756647,
+          "composition_first_K_test": 0.5641025641025641,
+          "price_of_composition": 0.026948953068727993
+        }
+      },
+      "review_cost": {
+        "1.0": {
+          "parity_first_D_test": 0.14804554591883848,
+          "composition_first_D_test": 0.18131997379260564,
+          "price_of_composition": 0.033274427873767165,
+          "parity_first_load": 0.05
+        },
+        "1.3": {
+          "parity_first_D_test": 0.15606059384176893,
+          "composition_first_D_test": 0.18275091552838957,
+          "price_of_composition": 0.02669032168662064,
+          "parity_first_load": 0.05
+        },
+        "1.5": {
+          "parity_first_D_test": 0.15993996793742113,
+          "composition_first_D_test": 0.18253268725076993,
+          "price_of_composition": 0.022592719313348802,
+          "parity_first_load": 0.05
+        },
+        "2.0": {
+          "parity_first_D_test": 0.16409883964535718,
+          "composition_first_D_test": 0.18115038835498648,
+          "price_of_composition": 0.0170515487096293,
+          "parity_first_load": 0.05
+        }
+      },
+      "traffic_mix": {
+        "0.3": {
+          "parity_first_D_test": 0.12723754611164717,
+          "parity_first_D_signed_test": -0.12723754611164717,
+          "parity_first_K_test": 0.9953488372093021,
+          "min_capacity": NaN
+        },
+        "0.5": {
+          "parity_first_D_test": 0.14804554591883848,
+          "parity_first_D_signed_test": -0.14804554591883848,
+          "parity_first_K_test": 0.9919354838709673,
+          "min_capacity": NaN
+        },
+        "0.7": {
+          "parity_first_D_test": 0.15817887822594665,
+          "parity_first_D_signed_test": -0.15817887822594665,
+          "parity_first_K_test": 0.9887218045112776,
+          "min_capacity": NaN
+        }
+      },
+      "calibration_size": {
+        "250": {
+          "D_test_mean": 0.13421459215010825,
+          "D_test_sd": 0.005934236984130433,
+          "min_capacity_mean": 0.33,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.13908294057133483,
+            0.12760434845719743,
+            0.1359564874217926
+          ]
+        },
+        "500": {
+          "D_test_mean": 0.12874911435505254,
+          "D_test_sd": 0.0019709337592042466,
+          "min_capacity_mean": 0.36166666666666664,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.12761805573982185,
+            0.12760434845719743,
+            0.13102493886813837
+          ]
+        },
+        "1000": {
+          "D_test_mean": 0.12760434845719743,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": 0.32,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.12760434845719743,
+            0.12760434845719743,
+            0.12760434845719743
+          ]
+        },
+        "2000": {
+          "D_test_mean": 0.12760434845719743,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": 0.32,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.12760434845719743,
+            0.12760434845719743,
+            0.12760434845719743
+          ]
+        },
+        "full": {
+          "D_test_mean": 0.12760434845719743,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": 0.32,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.12760434845719743,
+            0.12760434845719743,
+            0.12760434845719743
+          ]
+        }
+      },
+      "seed_spread": [
+        {
+          "seed_dir": "seed42",
+          "D_test": 0.13722479013316993,
+          "K_test": 0.9545454545454548,
+          "signed_gap": -0.13722479013316993
+        },
+        {
+          "seed_dir": "seed43",
+          "D_test": 0.14476483216237315,
+          "K_test": 0.9558823529411762,
+          "signed_gap": -0.14476483216237315
+        },
+        {
+          "seed_dir": "seed44",
+          "D_test": 0.1358687711909236,
+          "K_test": 0.9885057471264365,
+          "signed_gap": -0.1358687711909236
+        },
+        {
+          "seed_dir": "seed45",
+          "D_test": 0.15659232940105816,
+          "K_test": 0.9841269841269836,
+          "signed_gap": -0.15659232940105816
+        },
+        {
+          "seed_dir": "seed46",
+          "D_test": 0.16096095657131163,
+          "K_test": 0.9850746268656712,
+          "signed_gap": -0.16096095657131163
+        }
+      ],
+      "seed_summary": {
+        "n_seeds": 5,
+        "D_mean": 0.14708233589176728,
+        "D_sd": 0.01130643791974327,
+        "K_mean": 0.9736270331211445,
+        "K_sd": 0.01689417665754682
+      }
+    },
+    "hi": {
+      "composition_target": {
+        "0.4": {
+          "parity_first_D_test": 0.003931073983642466,
+          "composition_first_D_test": 0.03145819504879908,
+          "composition_first_K_test": 0.38035264483627207,
+          "price_of_composition": 0.02752712106515661
+        },
+        "0.5": {
+          "parity_first_D_test": 0.003931073983642466,
+          "composition_first_D_test": 0.026447483610987123,
+          "composition_first_K_test": 0.45885286783042395,
+          "price_of_composition": 0.022516409627344657
+        },
+        "0.6": {
+          "parity_first_D_test": 0.003931073983642466,
+          "composition_first_D_test": 0.019447621982364206,
+          "composition_first_K_test": 0.5707070707070707,
+          "price_of_composition": 0.01551654799872174
+        }
+      },
+      "review_cost": {
+        "1.0": {
+          "parity_first_D_test": 0.003931073983642466,
+          "composition_first_D_test": 0.026447483610987123,
+          "price_of_composition": 0.022516409627344657,
+          "parity_first_load": 0.05
+        },
+        "1.3": {
+          "parity_first_D_test": 0.0018111853716401907,
+          "composition_first_D_test": 0.02627567034346695,
+          "price_of_composition": 0.02446448497182676,
+          "parity_first_load": 0.05
+        },
+        "1.5": {
+          "parity_first_D_test": 0.0037476370994449643,
+          "composition_first_D_test": 0.02592403696147846,
+          "price_of_composition": 0.022176399862033496,
+          "parity_first_load": 0.05
+        },
+        "2.0": {
+          "parity_first_D_test": 0.009226349463738646,
+          "composition_first_D_test": 0.025392880314793347,
+          "price_of_composition": 0.0161665308510547,
+          "parity_first_load": 0.05
+        }
+      },
+      "traffic_mix": {
+        "0.3": {
+          "parity_first_D_test": 0.014493159294974155,
+          "parity_first_D_signed_test": 0.014493159294974155,
+          "parity_first_K_test": 0.9948364888123922,
+          "min_capacity": 0.11
+        },
+        "0.5": {
+          "parity_first_D_test": 0.003931073983642466,
+          "parity_first_D_signed_test": 0.003931073983642466,
+          "parity_first_K_test": 0.9920424403183019,
+          "min_capacity": 0.11
+        },
+        "0.7": {
+          "parity_first_D_test": 0.0021425759799674274,
+          "parity_first_D_signed_test": -0.0021425759799674274,
+          "parity_first_K_test": 0.9891696750902521,
+          "min_capacity": 0.11
+        }
+      },
+      "calibration_size": {
+        "250": {
+          "D_test_mean": 0.005653762005533792,
+          "D_test_sd": 0.0022970642674475317,
+          "min_capacity_mean": 0.041666666666666664,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.0072697222125844944,
+            0.006667322103515328,
+            0.003024241700501553
+          ]
+        },
+        "500": {
+          "D_test_mean": 0.014868763622478354,
+          "D_test_sd": 0.0026253655165949575,
+          "min_capacity_mean": 0.07666666666666667,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.016384519110205612,
+            0.016384519110205612,
+            0.011837252647023833
+          ]
+        },
+        "1000": {
+          "D_test_mean": 0.015903770764588095,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": 0.08,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.015903770764588095,
+            0.015903770764588095,
+            0.015903770764588095
+          ]
+        },
+        "2000": {
+          "D_test_mean": 0.015903770764588095,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": 0.08,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.015903770764588095,
+            0.015903770764588095,
+            0.015903770764588095
+          ]
+        },
+        "full": {
+          "D_test_mean": 0.015903770764588095,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": 0.08,
+          "min_capacity_n_valid": 3,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.015903770764588095,
+            0.015903770764588095,
+            0.015903770764588095
+          ]
+        }
+      },
+      "seed_spread": [
+        {
+          "seed_dir": "seed42",
+          "D_test": 0.016936056571880093,
+          "K_test": 0.9518072289156629,
+          "signed_gap": 0.016936056571880093
+        },
+        {
+          "seed_dir": "seed43",
+          "D_test": 0.01564350864723999,
+          "K_test": 0.9599999999999997,
+          "signed_gap": 0.01564350864723999
+        },
+        {
+          "seed_dir": "seed44",
+          "D_test": 0.005305278302310944,
+          "K_test": 0.9878048780487801,
+          "signed_gap": 0.005305278302310944
+        },
+        {
+          "seed_dir": "seed45",
+          "D_test": 0.0011318284935362757,
+          "K_test": 0.9863013698630133,
+          "signed_gap": 0.0011318284935362757
+        },
+        {
+          "seed_dir": "seed46",
+          "D_test": 0.00698535020249888,
+          "K_test": 0.9863013698630133,
+          "signed_gap": -0.00698535020249888
+        }
+      ],
+      "seed_summary": {
+        "n_seeds": 5,
+        "D_mean": 0.009200404443493237,
+        "D_sd": 0.006828877953922003,
+        "K_mean": 0.9744429693380938,
+        "K_sd": 0.017181094538651586
+      }
+    },
+    "zh": {
+      "composition_target": {
+        "0.4": {
+          "parity_first_D_test": 0.18795385985476484,
+          "composition_first_D_test": 0.22215050274110676,
+          "composition_first_K_test": 0.3454098863985261,
+          "price_of_composition": 0.034196642886341916
+        },
+        "0.5": {
+          "parity_first_D_test": 0.18795385985476484,
+          "composition_first_D_test": 0.21833690043406018,
+          "composition_first_K_test": 0.43157397110052803,
+          "price_of_composition": 0.030383040579295334
+        },
+        "0.6": {
+          "parity_first_D_test": 0.18795385985476484,
+          "composition_first_D_test": 0.21284554303944073,
+          "composition_first_K_test": 0.5364166280078257,
+          "price_of_composition": 0.024891683184675883
+        }
+      },
+      "review_cost": {
+        "1.0": {
+          "parity_first_D_test": 0.18795385985476484,
+          "composition_first_D_test": 0.21833690043406018,
+          "price_of_composition": 0.030383040579295334,
+          "parity_first_load": 0.05
+        },
+        "1.3": {
+          "parity_first_D_test": 0.19476250660766295,
+          "composition_first_D_test": 0.21607557919246503,
+          "price_of_composition": 0.021313072584802084,
+          "parity_first_load": 0.05
+        },
+        "1.5": {
+          "parity_first_D_test": 0.19666883166673432,
+          "composition_first_D_test": 0.21661634465378615,
+          "price_of_composition": 0.01994751298705183,
+          "parity_first_load": 0.05
+        },
+        "2.0": {
+          "parity_first_D_test": 0.20111576628681171,
+          "composition_first_D_test": 0.21771711400901306,
+          "price_of_composition": 0.016601347722201343,
+          "parity_first_load": 0.05
+        }
+      },
+      "traffic_mix": {
+        "0.3": {
+          "parity_first_D_test": 0.17035914931393373,
+          "parity_first_D_signed_test": -0.17035914931393373,
+          "parity_first_K_test": 0.9951929230725468,
+          "min_capacity": NaN
+        },
+        "0.5": {
+          "parity_first_D_test": 0.18795385985476484,
+          "parity_first_D_signed_test": -0.18795385985476484,
+          "parity_first_K_test": 0.9914159820192755,
+          "min_capacity": NaN
+        },
+        "0.7": {
+          "parity_first_D_test": 0.1962367909797371,
+          "parity_first_D_signed_test": -0.1962367909797371,
+          "parity_first_K_test": 0.9878364761767663,
+          "min_capacity": NaN
+        }
+      },
+      "calibration_size": {
+        "250": {
+          "D_test_mean": 0.1709878158445207,
+          "D_test_sd": 0.005954998739888953,
+          "min_capacity_mean": NaN,
+          "min_capacity_n_valid": 0,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.16411394286982864,
+            0.1745809980931778,
+            0.17426850657055562
+          ]
+        },
+        "500": {
+          "D_test_mean": 0.173325131645549,
+          "D_test_sd": 0.0008412304272353698,
+          "min_capacity_mean": NaN,
+          "min_capacity_n_valid": 0,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.17287793424896866,
+            0.17280195092655765,
+            0.1742955097611208
+          ]
+        },
+        "1000": {
+          "D_test_mean": 0.17105269002769652,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": NaN,
+          "min_capacity_n_valid": 0,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.17105269002769652,
+            0.17105269002769652,
+            0.17105269002769652
+          ]
+        },
+        "2000": {
+          "D_test_mean": 0.17105269002769652,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": NaN,
+          "min_capacity_n_valid": 0,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.17105269002769652,
+            0.17105269002769652,
+            0.17105269002769652
+          ]
+        },
+        "full": {
+          "D_test_mean": 0.17105269002769652,
+          "D_test_sd": 0.0,
+          "min_capacity_mean": NaN,
+          "min_capacity_n_valid": 0,
+          "n_dev": 675,
+          "n_dev_pool": 3375,
+          "draws": [
+            0.17105269002769652,
+            0.17105269002769652,
+            0.17105269002769652
+          ]
+        }
+      },
+      "seed_spread": [
+        {
+          "seed_dir": "seed42",
+          "D_test": 0.1815908459420546,
+          "K_test": 0.955492642459756,
+          "signed_gap": -0.1815908459420546
+        },
+        {
+          "seed_dir": "seed43",
+          "D_test": 0.1835334050007963,
+          "K_test": 0.9629101283880169,
+          "signed_gap": -0.1835334050007963
+        },
+        {
+          "seed_dir": "seed44",
+          "D_test": 0.17914578975531448,
+          "K_test": 0.9850528457082205,
+          "signed_gap": -0.17914578975531448
+        },
+        {
+          "seed_dir": "seed45",
+          "D_test": 0.18769803349595132,
+          "K_test": 0.9884889146204403,
+          "signed_gap": -0.18769803349595132
+        },
+        {
+          "seed_dir": "seed46",
+          "D_test": 0.20404009839137904,
+          "K_test": 0.9854860872552383,
+          "signed_gap": -0.20404009839137904
+        }
+      ],
+      "seed_summary": {
+        "n_seeds": 5,
+        "D_mean": 0.18720163451709912,
+        "D_sd": 0.009919850914148534,
+        "K_mean": 0.9754861236863345,
+        "K_sd": 0.015153291416391693
+      }
+    }
+  }
+}

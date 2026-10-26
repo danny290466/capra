@@ -1,0 +1,201 @@
+{
+  "generated": "2026-09-25T14:41:29",
+  "detector_out_root": "outputs/killtest",
+  "pair": [
+    "en",
+    "vi"
+  ],
+  "mode": "NAT",
+  "budget": 0.05,
+  "composition_target": 0.5,
+  "n": {
+    "en": 25000,
+    "vi": 33400
+  },
+  "prevalence": {
+    "en": 0.0756,
+    "vi": 0.1694610778443114
+  },
+  "ratios": {
+    "1": {
+      "weight_fn_over_fp": 1.0,
+      "design": {
+        "price_of_composition_design": 0.033243000520045606,
+        "feasible_both": false
+      },
+      "parity_first": {
+        "test_D_abs_pp": 0.9432336499002645,
+        "test_D_signed_pp": -0.9432336499002645,
+        "test_K": 0.9977577722729072,
+        "test_load": 0.05351820359281434,
+        "s": {
+          "en": 0.0,
+          "vi": 0.1
+        }
+      },
+      "composition_first": {
+        "test_D_abs_pp": 4.535024544729733,
+        "test_K": 0.507366842320437,
+        "test_load": 0.053021197604790404
+      },
+      "price_of_composition_test_pp": 3.5917908948294692,
+      "price_of_parity_test": 0.4977577722729072,
+      "min_parity_capacity": {
+        "capacity": 0.095,
+        "r_natural": 0.05652,
+        "risk_at_capacity": 0.0555288268783575
+      },
+      "pooled_rule": {
+        "risk_gap_pp": -3.5520207052036277,
+        "queue_share_second": 0.6374180462511961,
+        "review_load": 0.058690179640718654
+      },
+      "kept_set_class_split": {
+        "en": {
+          "kept_n": 23936,
+          "fn_per_kept_toxic": 0.42821316614420063,
+          "fp_per_kept_clean": 0.017635736985810842,
+          "weighted_risk": 0.044994986631016046
+        },
+        "vi": {
+          "kept_n": 30901,
+          "fn_per_kept_toxic": 0.31750106974753955,
+          "fp_per_kept_clean": 0.038281160635985814,
+          "weighted_risk": 0.08051519368305232
+        }
+      },
+      "component_rates": {
+        "en": {
+          "unweighted_err": 0.06128,
+          "fn_rate": 0.03344,
+          "fp_rate": 0.02784
+        },
+        "vi": {
+          "unweighted_err": 0.10763473053892215,
+          "fn_rate": 0.05847305389221557,
+          "fp_rate": 0.049161676646706585
+        }
+      }
+    },
+    "2": {
+      "weight_fn_over_fp": 2.0,
+      "design": {
+        "price_of_composition_design": 0.04670550450871043,
+        "feasible_both": false
+      },
+      "parity_first": {
+        "test_D_abs_pp": 1.9727814486424342,
+        "test_D_signed_pp": -1.9727814486424342,
+        "test_K": 0.9977577722729072,
+        "test_load": 0.05351820359281434,
+        "s": {
+          "en": 0.0,
+          "vi": 0.1
+        }
+      },
+      "composition_first": {
+        "test_D_abs_pp": 6.8091598675548575,
+        "test_K": 0.507366842320437,
+        "test_load": 0.053021197604790404
+      },
+      "price_of_composition_test_pp": 4.836378418912424,
+      "price_of_parity_test": 0.4977577722729072,
+      "min_parity_capacity": {
+        "capacity": 0.10500000000000001,
+        "r_natural": 0.08832,
+        "risk_at_capacity": 0.08776776776776751
+      },
+      "pooled_rule": {
+        "risk_gap_pp": -5.501011770035998,
+        "queue_share_second": 0.6374180462511961,
+        "review_load": 0.058690179640718654
+      },
+      "kept_set_class_split": {
+        "en": {
+          "kept_n": 23936,
+          "fn_per_kept_toxic": 0.42821316614420063,
+          "fp_per_kept_clean": 0.017635736985810842,
+          "weighted_risk": 0.07352941176470588
+        },
+        "vi": {
+          "kept_n": 30901,
+          "fn_per_kept_toxic": 0.31750106974753955,
+          "fp_per_kept_clean": 0.038281160635985814,
+          "weighted_risk": 0.12853952946506586
+        }
+      },
+      "component_rates": {
+        "en": {
+          "unweighted_err": 0.06128,
+          "fn_rate": 0.03344,
+          "fp_rate": 0.02784
+        },
+        "vi": {
+          "unweighted_err": 0.10763473053892215,
+          "fn_rate": 0.05847305389221557,
+          "fp_rate": 0.049161676646706585
+        }
+      }
+    },
+    "5": {
+      "weight_fn_over_fp": 5.0,
+      "design": {
+        "price_of_composition_design": 0.08709301647470483,
+        "feasible_both": false
+      },
+      "parity_first": {
+        "test_D_abs_pp": 5.061424844868948,
+        "test_D_signed_pp": -5.061424844868948,
+        "test_K": 0.9977577722729072,
+        "test_load": 0.05351820359281434,
+        "s": {
+          "en": 0.0,
+          "vi": 0.1
+        }
+      },
+      "composition_first": {
+        "test_D_abs_pp": 13.631565836030223,
+        "test_K": 0.507366842320437,
+        "test_load": 0.053021197604790404
+      },
+      "price_of_composition_test_pp": 8.570140991161276,
+      "price_of_parity_test": 0.4977577722729072,
+      "min_parity_capacity": {
+        "capacity": 0.12000000000000001,
+        "r_natural": 0.18372,
+        "risk_at_capacity": 0.18276505846516672
+      },
+      "pooled_rule": {
+        "risk_gap_pp": -11.347984964533103,
+        "queue_share_second": 0.6374180462511961,
+        "review_load": 0.058690179640718654
+      },
+      "kept_set_class_split": {
+        "en": {
+          "kept_n": 23936,
+          "fn_per_kept_toxic": 0.42821316614420063,
+          "fp_per_kept_clean": 0.017635736985810842,
+          "weighted_risk": 0.1591326871657754
+        },
+        "vi": {
+          "kept_n": 30901,
+          "fn_per_kept_toxic": 0.31750106974753955,
+          "fp_per_kept_clean": 0.038281160635985814,
+          "weighted_risk": 0.2726125368111064
+        }
+      },
+      "component_rates": {
+        "en": {
+          "unweighted_err": 0.06128,
+          "fn_rate": 0.03344,
+          "fp_rate": 0.02784
+        },
+        "vi": {
+          "unweighted_err": 0.10763473053892215,
+          "fn_rate": 0.05847305389221557,
+          "fp_rate": 0.049161676646706585
+        }
+      }
+    }
+  }
+}

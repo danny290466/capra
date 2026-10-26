@@ -1,0 +1,32 @@
+{
+  "args": {
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "thinking": "disabled",
+    "json_mode": true,
+    "max_tokens": 200,
+    "temperature": 0.0,
+    "key_env": "DEEPSEEK_API_KEY",
+    "opencode": false,
+    "out": "outputs/pool/llm_deepseek_flash",
+    "workers": 12,
+    "limit": 0,
+    "sets": "en_dev,en_test,vi_dev,vi_test,tr_dev,tr_test",
+    "data_dir": "data/killtest"
+  },
+  "stats": {
+    "prompt_tokens": 5322127,
+    "completion_tokens": 410928,
+    "calls": 29352,
+    "parse_fail": 0
+  },
+  "elapsed_s": 1919.7,
+  "sets": [
+    "en_dev",
+    "en_test",
+    "vi_dev",
+    "vi_test",
+    "tr_dev",
+    "tr_test"
+  ]
+}

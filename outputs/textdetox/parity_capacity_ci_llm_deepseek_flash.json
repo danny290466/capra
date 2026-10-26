@@ -1,0 +1,108 @@
+{
+  "generated": "2026-09-24T10:56:35",
+  "boot": 400,
+  "rows": [
+    {
+      "root": "outputs/textdetox/llm_deepseek_flash",
+      "pair": [
+        "en",
+        "de"
+      ],
+      "n_seeds": 1,
+      "capacity": 0.315,
+      "ci": [
+        0.29000000000000004,
+        0.33
+      ],
+      "censored_replicates": 76,
+      "n_ok": 324,
+      "r_nat": 0.03111111111111111,
+      "median": 0.31
+    },
+    {
+      "root": "outputs/textdetox/llm_deepseek_flash",
+      "pair": [
+        "en",
+        "uk"
+      ],
+      "n_seeds": 1,
+      "capacity": null,
+      "ci": [
+        0.275,
+        0.315
+      ],
+      "censored_replicates": 86,
+      "n_ok": 314,
+      "r_nat": 0.03111111111111111,
+      "median": 0.295
+    },
+    {
+      "root": "outputs/textdetox/llm_deepseek_flash",
+      "pair": [
+        "en",
+        "ar"
+      ],
+      "n_seeds": 1,
+      "capacity": 0.27,
+      "ci": [
+        0.045,
+        0.31
+      ],
+      "censored_replicates": 88,
+      "n_ok": 312,
+      "r_nat": 0.03111111111111111,
+      "median": 0.265
+    },
+    {
+      "root": "outputs/textdetox/llm_deepseek_flash",
+      "pair": [
+        "en",
+        "hi"
+      ],
+      "n_seeds": 1,
+      "capacity": 0.29000000000000004,
+      "ci": [
+        0.19,
+        0.31
+      ],
+      "censored_replicates": 13,
+      "n_ok": 387,
+      "r_nat": 0.03111111111111111,
+      "median": 0.29000000000000004
+    },
+    {
+      "root": "outputs/textdetox/llm_deepseek_flash",
+      "pair": [
+        "en",
+        "zh"
+      ],
+      "n_seeds": 1,
+      "capacity": null,
+      "ci": [
+        0.26875000000000004,
+        0.4
+      ],
+      "censored_replicates": 384,
+      "n_ok": 16,
+      "r_nat": 0.03111111111111111,
+      "median": 0.4
+    },
+    {
+      "root": "outputs/textdetox/llm_deepseek_flash",
+      "pair": [
+        "en",
+        "ru"
+      ],
+      "n_seeds": 1,
+      "capacity": 0.17500000000000002,
+      "ci": [
+        0.015,
+        0.20500000000000002
+      ],
+      "censored_replicates": 0,
+      "n_ok": 400,
+      "r_nat": 0.03111111111111111,
+      "median": 0.17
+    }
+  ]
+}

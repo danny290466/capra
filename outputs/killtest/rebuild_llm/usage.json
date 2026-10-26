@@ -1,0 +1,62 @@
+{
+  "args": {
+    "model": "deepseek-flash",
+    "base_url": "https://opencode.ai/zen/go/v1",
+    "thinking": "disabled",
+    "json_mode": true,
+    "max_tokens": 120,
+    "temperature": 0.0,
+    "key_env": "OPENCODE_GO_API_KEY",
+    "opencode": true,
+    "out": "outputs/pool/llm_deepseek_flash_rebuild",
+    "workers": 8,
+    "limit": 0,
+    "sets": "en_dev,en_test,vi_dev,vi_test",
+    "data_dir": "data/killtest"
+  },
+  "stats": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "calls": 0,
+    "parse_fail": 16
+  },
+  "elapsed_s": 48.1,
+  "sets": [
+    "en_dev",
+    "en_test",
+    "vi_dev",
+    "vi_test"
+  ],
+  "counts": {
+    "en_dev": {
+      "n": 5000,
+      "unscored": 5,
+      "unscored_by_set": {
+        "?": 5
+      },
+      "usable_in_tables": false
+    },
+    "en_test": {
+      "n": 5000,
+      "unscored": 8,
+      "unscored_by_set": {
+        "?": 8
+      },
+      "usable_in_tables": false
+    },
+    "vi_dev": {
+      "n": 2672,
+      "unscored": 0,
+      "unscored_by_set": {},
+      "usable_in_tables": true
+    },
+    "vi_test": {
+      "n": 6680,
+      "unscored": 3,
+      "unscored_by_set": {
+        "?": 3
+      },
+      "usable_in_tables": false
+    }
+  }
+}

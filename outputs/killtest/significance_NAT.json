@@ -1,0 +1,166 @@
+{
+  "generated": "2026-09-24T08:54:47",
+  "detector": "outputs/killtest",
+  "lang_a": "en",
+  "mode": "NAT",
+  "boot": 1000,
+  "alpha": 0.05,
+  "pairs": {
+    "vi": {
+      "0.05": {
+        "point": {
+          "GLOBAL": 0.035520207052036276,
+          "EQUAL-COV": 0.045350245447297335,
+          "CONRA": 0.009259186005090778,
+          "CAPRA-parity": 0.009432336499002644,
+          "CAPRA-composition": 0.045350245447297335,
+          "ABS-RISK": 0.009432336499002644
+        },
+        "ci": {
+          "GLOBAL": [
+            0.028216478819446212,
+            0.04331305003495275
+          ],
+          "EQUAL-COV": [
+            0.03784097472266418,
+            0.05317052630588901
+          ],
+          "CONRA": [
+            0.0014525282748715385,
+            0.01745445899871448
+          ],
+          "CAPRA-parity": [
+            0.0016877224064552531,
+            0.0176474783245416
+          ],
+          "CAPRA-composition": [
+            0.03784097472266418,
+            0.05317052630588901
+          ],
+          "ABS-RISK": [
+            0.0016877224064552531,
+            0.0176474783245416
+          ]
+        },
+        "best": "CAPRA-parity",
+        "point_signed": {
+          "GLOBAL": -0.035316804212693,
+          "EQUAL-COV": -0.045150248884533284,
+          "CONRA": -0.009026031197196418,
+          "CAPRA-parity": -0.009206494502317383,
+          "CAPRA-composition": -0.045150248884533284,
+          "ABS-RISK": -0.009206494502317383
+        },
+        "ci_signed": {
+          "GLOBAL": [
+            -0.04331305003495275,
+            -0.028216478819446212
+          ],
+          "EQUAL-COV": [
+            -0.05317052630588901,
+            -0.03784097472266418
+          ],
+          "CONRA": [
+            -0.01745445899871448,
+            -0.0013726643594607184
+          ],
+          "CAPRA-parity": [
+            -0.0176474783245416,
+            -0.0014999216042781173
+          ],
+          "CAPRA-composition": [
+            -0.05317052630588901,
+            -0.03784097472266418
+          ],
+          "ABS-RISK": [
+            -0.0176474783245416,
+            -0.0014999216042781173
+          ]
+        },
+        "bootstrap_diagnostics": {
+          "dropped_seed_risk": 0,
+          "replicates_with_no_seed": 0,
+          "n_items": {
+            "en": 5000,
+            "vi": 6680
+          },
+          "n_seeds": 5,
+          "replicates": 1000
+        },
+        "reference_rule": "CAPRA-parity",
+        "p_vs_best_item": {
+          "GLOBAL": 0.001,
+          "EQUAL-COV": 0.001,
+          "CONRA": 0.032,
+          "CAPRA-parity": 1.0,
+          "CAPRA-composition": 0.001,
+          "ABS-RISK": 0.001
+        },
+        "seed_rows": [
+          {
+            "GLOBAL": 0.035693906095745,
+            "EQUAL-COV": 0.04333378548121224,
+            "CONRA": 0.012358907390524712,
+            "CAPRA-parity": 0.01148760892650201,
+            "CAPRA-composition": 0.04333378548121224,
+            "ABS-RISK": 0.01148760892650201,
+            "seed": "seed42"
+          },
+          {
+            "GLOBAL": 0.04087380605471911,
+            "EQUAL-COV": 0.04943438368253223,
+            "CONRA": 0.01572237568754179,
+            "CAPRA-parity": 0.01673601167374581,
+            "CAPRA-composition": 0.04943438368253223,
+            "ABS-RISK": 0.01673601167374581,
+            "seed": "seed43"
+          },
+          {
+            "GLOBAL": 0.03746355415208477,
+            "EQUAL-COV": 0.04461107937320266,
+            "CONRA": 0.00577195212323546,
+            "CAPRA-parity": 0.00577195212323546,
+            "CAPRA-composition": 0.04461107937320266,
+            "ABS-RISK": 0.00577195212323546,
+            "seed": "seed44"
+          },
+          {
+            "GLOBAL": 0.03653195903246453,
+            "EQUAL-COV": 0.04295159133597944,
+            "CONRA": 0.005522981366459637,
+            "CAPRA-parity": 0.005534452652787111,
+            "CAPRA-composition": 0.04295159133597944,
+            "ABS-RISK": 0.005534452652787111,
+            "seed": "seed45"
+          },
+          {
+            "GLOBAL": 0.03212803383833359,
+            "EQUAL-COV": 0.04555704538809917,
+            "CONRA": 0.009217898091833758,
+            "CAPRA-parity": 0.007979510831273844,
+            "CAPRA-composition": 0.04555704538809917,
+            "ABS-RISK": 0.007979510831273844,
+            "seed": "seed46"
+          }
+        ],
+        "seed_p": {
+          "EQUAL-COV|GLOBAL": 0.0022783646533962093,
+          "CONRA|GLOBAL": 0.00014341932237179494,
+          "CONRA|EQUAL-COV": 1.4458401926818357e-05,
+          "CAPRA-parity|GLOBAL": 0.00010530652782322967,
+          "CAPRA-parity|EQUAL-COV": 1.4798164782620943e-05,
+          "CAPRA-parity|CONRA": 0.6101525017070868,
+          "CAPRA-composition|GLOBAL": 0.0022783646533962093,
+          "CAPRA-composition|EQUAL-COV": 1.0,
+          "CAPRA-composition|CONRA": 1.4458401926818357e-05,
+          "CAPRA-composition|CAPRA-parity": 1.4798164782620943e-05,
+          "ABS-RISK|GLOBAL": 0.00010530652782322967,
+          "ABS-RISK|EQUAL-COV": 1.4798164782620943e-05,
+          "ABS-RISK|CONRA": 0.6101525017070868,
+          "ABS-RISK|CAPRA-parity": 1.0,
+          "ABS-RISK|CAPRA-composition": 1.4798164782620943e-05
+        }
+      }
+    }
+  }
+}

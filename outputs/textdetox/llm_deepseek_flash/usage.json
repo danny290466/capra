@@ -1,0 +1,98 @@
+{
+  "args": {
+    "model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "thinking": "disabled",
+    "json_mode": true,
+    "max_tokens": 200,
+    "temperature": 0.0,
+    "key_env": "DEEPSEEK_API_KEY",
+    "opencode": false,
+    "out": "outputs/textdetox/llm_deepseek_flash",
+    "workers": 12,
+    "limit": 0,
+    "sets": "en_dev,de_dev,uk_dev,ru_dev,ar_dev,hi_dev,zh_dev,en_test,de_test,uk_test,ru_test,ar_test,hi_test,zh_test",
+    "data_dir": "data/textdetox"
+  },
+  "stats": {
+    "prompt_tokens": 1434539,
+    "completion_tokens": 132328,
+    "calls": 9452,
+    "parse_fail": 0
+  },
+  "elapsed_s": 606.2,
+  "sets": [
+    "en_dev",
+    "de_dev",
+    "uk_dev",
+    "ru_dev",
+    "ar_dev",
+    "hi_dev",
+    "zh_dev",
+    "en_test",
+    "de_test",
+    "uk_test",
+    "ru_test",
+    "ar_test",
+    "hi_test",
+    "zh_test"
+  ],
+  "counts": {
+    "en_dev": {
+      "n": 675,
+      "defaulted": 0
+    },
+    "de_dev": {
+      "n": 675,
+      "defaulted": 0
+    },
+    "uk_dev": {
+      "n": 675,
+      "defaulted": 0
+    },
+    "ru_dev": {
+      "n": 675,
+      "defaulted": 0
+    },
+    "ar_dev": {
+      "n": 675,
+      "defaulted": 0
+    },
+    "hi_dev": {
+      "n": 675,
+      "defaulted": 0
+    },
+    "zh_dev": {
+      "n": 676,
+      "defaulted": 0
+    },
+    "en_test": {
+      "n": 675,
+      "defaulted": 0
+    },
+    "de_test": {
+      "n": 675,
+      "defaulted": 0
+    },
+    "uk_test": {
+      "n": 675,
+      "defaulted": 0
+    },
+    "ru_test": {
+      "n": 675,
+      "defaulted": 0
+    },
+    "ar_test": {
+      "n": 675,
+      "defaulted": 0
+    },
+    "hi_test": {
+      "n": 675,
+      "defaulted": 0
+    },
+    "zh_test": {
+      "n": 676,
+      "defaulted": 0
+    }
+  }
+}

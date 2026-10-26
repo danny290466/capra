@@ -1,0 +1,152 @@
+{
+ "per_seed": {
+  "en": [
+   {
+    "seed": "42",
+    "n": 5000,
+    "max_gap_pp": 0.3997815626513348,
+    "max_gap_review_share": 0.9654,
+    "raw_at_peak_pp": 0.5780346820809248,
+    "env_at_peak_pp": 0.17825311942959002,
+    "n_shares_with_gap": 4571,
+    "frac_shares_with_gap": 0.9142,
+    "gap_at_C_pp": 0.0,
+    "gap_at_2C_pp": 0.0,
+    "gap_at_5C_pp": 0.0013638785295685962
+   },
+   {
+    "seed": "43",
+    "n": 5000,
+    "max_gap_pp": 0.06234642608281071,
+    "max_gap_review_share": 0.702,
+    "raw_at_peak_pp": 0.33557046979865773,
+    "env_at_peak_pp": 0.273224043715847,
+    "n_shares_with_gap": 4130,
+    "frac_shares_with_gap": 0.826,
+    "gap_at_C_pp": 0.0,
+    "gap_at_2C_pp": 0.0006023352835171636,
+    "gap_at_5C_pp": 0.004606253875454047
+   },
+   {
+    "seed": "44",
+    "n": 5000,
+    "max_gap_pp": 0.1875046320314237,
+    "max_gap_review_share": 0.9476,
+    "raw_at_peak_pp": 0.38167938931297707,
+    "env_at_peak_pp": 0.1941747572815534,
+    "n_shares_with_gap": 4448,
+    "frac_shares_with_gap": 0.8896,
+    "gap_at_C_pp": 0.0045160219159887105,
+    "gap_at_2C_pp": 0.0026050917702781506,
+    "gap_at_5C_pp": 0.0011297628563814235
+   },
+   {
+    "seed": "45",
+    "n": 5000,
+    "max_gap_pp": 0.5554173523671017,
+    "max_gap_review_share": 0.9152,
+    "raw_at_peak_pp": 0.7075471698113208,
+    "env_at_peak_pp": 0.15212981744421905,
+    "n_shares_with_gap": 4529,
+    "frac_shares_with_gap": 0.9058,
+    "gap_at_C_pp": 0.0008286344149156799,
+    "gap_at_2C_pp": 0.00283635466765339,
+    "gap_at_5C_pp": 0.008387609213661613
+   },
+   {
+    "seed": "46",
+    "n": 5000,
+    "max_gap_pp": 0.8728237594264965,
+    "max_gap_review_share": 0.9816,
+    "raw_at_peak_pp": 1.0869565217391304,
+    "env_at_peak_pp": 0.21413276231263384,
+    "n_shares_with_gap": 4617,
+    "frac_shares_with_gap": 0.9234,
+    "gap_at_C_pp": 0.004338923017322555,
+    "gap_at_2C_pp": 0.0,
+    "gap_at_5C_pp": 0.00024882253621266726
+   }
+  ],
+  "vi": [
+   {
+    "seed": "42",
+    "n": 2672,
+    "max_gap_pp": 0.29830521234249574,
+    "max_gap_review_share": 0.8768712574850299,
+    "raw_at_peak_pp": 0.60790273556231,
+    "env_at_peak_pp": 0.30959752321981426,
+    "n_shares_with_gap": 2195,
+    "frac_shares_with_gap": 0.8214820359281437,
+    "gap_at_C_pp": 0.0,
+    "gap_at_2C_pp": 0.025365031581360553,
+    "gap_at_5C_pp": 0.0
+   },
+   {
+    "seed": "43",
+    "n": 2672,
+    "max_gap_pp": 0.1436326079646444,
+    "max_gap_review_share": 0.4229041916167665,
+    "raw_at_peak_pp": 2.9831387808041505,
+    "env_at_peak_pp": 2.8395061728395063,
+    "n_shares_with_gap": 1776,
+    "frac_shares_with_gap": 0.6646706586826348,
+    "gap_at_C_pp": 0.0,
+    "gap_at_2C_pp": 0.018625651143279465,
+    "gap_at_5C_pp": 0.009145056500544507
+   },
+   {
+    "seed": "44",
+    "n": 2672,
+    "max_gap_pp": 0.25166218437173166,
+    "max_gap_review_share": 0.782185628742515,
+    "raw_at_peak_pp": 1.202749140893471,
+    "env_at_peak_pp": 0.9510869565217392,
+    "n_shares_with_gap": 2164,
+    "frac_shares_with_gap": 0.8098802395209581,
+    "gap_at_C_pp": 0.022767146914075276,
+    "gap_at_2C_pp": 0.013255903666863078,
+    "gap_at_5C_pp": 0.016674755908372557
+   },
+   {
+    "seed": "45",
+    "n": 2672,
+    "max_gap_pp": 0.15826417817430377,
+    "max_gap_review_share": 0.8068862275449102,
+    "raw_at_peak_pp": 0.5813953488372093,
+    "env_at_peak_pp": 0.4231311706629055,
+    "n_shares_with_gap": 1930,
+    "frac_shares_with_gap": 0.7223053892215568,
+    "gap_at_C_pp": 0.0036157767045283395,
+    "gap_at_2C_pp": 0.0062879664042947425,
+    "gap_at_5C_pp": 0.039139325261457886
+   },
+   {
+    "seed": "46",
+    "n": 2672,
+    "max_gap_pp": 0.19406212852498458,
+    "max_gap_review_share": 0.9019461077844312,
+    "raw_at_peak_pp": 0.38167938931297707,
+    "env_at_peak_pp": 0.18761726078799248,
+    "n_shares_with_gap": 2126,
+    "frac_shares_with_gap": 0.7956586826347305,
+    "gap_at_C_pp": 0.0,
+    "gap_at_2C_pp": 0.03185220576524955,
+    "gap_at_5C_pp": 0.002090581928412133
+   }
+  ]
+ },
+ "summary": {
+  "en": {
+   "max_gap_pp": 0.41557474651183346,
+   "max_gap_review_share": 0.90236,
+   "gap_at_C_pp": 0.001936715869645389,
+   "max_gap_pp_worst_seed": 0.8728237594264965
+  },
+  "vi": {
+   "max_gap_pp": 0.209185262275632,
+   "max_gap_review_share": 0.7581586826347306,
+   "gap_at_C_pp": 0.005276584723720723,
+   "max_gap_pp_worst_seed": 0.29830521234249574
+  }
+ }
+}

@@ -1,0 +1,162 @@
+{
+  "budget": 0.05,
+  "pairs": {
+    "xlmr_base:de-ar": {
+      "n_dev": {
+        "de": 3375,
+        "ar": 3375
+      },
+      "n_test": {
+        "de": 3375,
+        "ar": 3375
+      },
+      "pooled_gap_test_pp": -12.661,
+      "parity_first_gap_signed_pp": -11.509,
+      "parity_first_gap_abs_pp": 11.509,
+      "queue_share_second": 0.997,
+      "load_items": 0.0507,
+      "min_parity_capacity": 0.27,
+      "quality": {
+        "de": {
+          "acc": 0.8966,
+          "auc": NaN
+        },
+        "ar": {
+          "acc": 0.7541,
+          "auc": NaN
+        }
+      }
+    },
+    "xlmr_base:ru-uk": {
+      "n_dev": {
+        "ru": 3375,
+        "uk": 3375
+      },
+      "n_test": {
+        "ru": 3375,
+        "uk": 3375
+      },
+      "pooled_gap_test_pp": -4.682,
+      "parity_first_gap_signed_pp": -2.304,
+      "parity_first_gap_abs_pp": 2.304,
+      "queue_share_second": 0.997,
+      "load_items": 0.0556,
+      "min_parity_capacity": 0.11,
+      "quality": {
+        "ru": {
+          "acc": 0.9618,
+          "auc": NaN
+        },
+        "uk": {
+          "acc": 0.9031,
+          "auc": NaN
+        }
+      }
+    },
+    "xlmr_base:de-ru": {
+      "n_dev": {
+        "de": 3375,
+        "ru": 3375
+      },
+      "n_test": {
+        "de": 3375,
+        "ru": 3375
+      },
+      "pooled_gap_test_pp": 4.704,
+      "parity_first_gap_signed_pp": 2.874,
+      "parity_first_gap_abs_pp": 2.874,
+      "queue_share_second": 0.006,
+      "load_items": 0.0471,
+      "min_parity_capacity": 0.155,
+      "quality": {
+        "de": {
+          "acc": 0.8966,
+          "auc": NaN
+        },
+        "ru": {
+          "acc": 0.9618,
+          "auc": NaN
+        }
+      }
+    },
+    "xlmr_large:de-ar": {
+      "n_dev": {
+        "de": 3375,
+        "ar": 3375
+      },
+      "n_test": {
+        "de": 3375,
+        "ar": 3375
+      },
+      "pooled_gap_test_pp": -11.236,
+      "parity_first_gap_signed_pp": -9.235,
+      "parity_first_gap_abs_pp": 9.235,
+      "queue_share_second": 0.997,
+      "load_items": 0.0548,
+      "min_parity_capacity": 0.255,
+      "quality": {
+        "de": {
+          "acc": 0.9087,
+          "auc": NaN
+        },
+        "ar": {
+          "acc": 0.7864,
+          "auc": NaN
+        }
+      }
+    },
+    "xlmr_large:ru-uk": {
+      "n_dev": {
+        "ru": 3375,
+        "uk": 3375
+      },
+      "n_test": {
+        "ru": 3375,
+        "uk": 3375
+      },
+      "pooled_gap_test_pp": -3.387,
+      "parity_first_gap_signed_pp": -1.941,
+      "parity_first_gap_abs_pp": 1.941,
+      "queue_share_second": 0.988,
+      "load_items": 0.0492,
+      "min_parity_capacity": 0.2,
+      "quality": {
+        "ru": {
+          "acc": 0.9804,
+          "auc": NaN
+        },
+        "uk": {
+          "acc": 0.9336,
+          "auc": NaN
+        }
+      }
+    },
+    "xlmr_large:de-ru": {
+      "n_dev": {
+        "de": 3375,
+        "ru": 3375
+      },
+      "n_test": {
+        "de": 3375,
+        "ru": 3375
+      },
+      "pooled_gap_test_pp": 4.985,
+      "parity_first_gap_signed_pp": 3.972,
+      "parity_first_gap_abs_pp": 3.972,
+      "queue_share_second": 0.013,
+      "load_items": 0.0464,
+      "min_parity_capacity": 0.225,
+      "quality": {
+        "de": {
+          "acc": 0.9087,
+          "auc": NaN
+        },
+        "ru": {
+          "acc": 0.9804,
+          "auc": NaN
+        }
+      }
+    }
+  },
+  "note": "pairs with NO English on either side"
+}

@@ -1,0 +1,32 @@
+{
+  "args": {
+    "model": "gemini-3.1-flash-lite",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "thinking": "none",
+    "json_mode": false,
+    "max_tokens": 200,
+    "temperature": 0.0,
+    "key_env": "GEMINI_API_KEY",
+    "opencode": false,
+    "out": "outputs/pool/llm_gemini31_flashlite",
+    "workers": 8,
+    "limit": 0,
+    "sets": "en_dev,en_test,vi_dev,vi_test,tr_dev,tr_test",
+    "data_dir": "data/killtest"
+  },
+  "stats": {
+    "prompt_tokens": 4317271,
+    "completion_tokens": 425681,
+    "calls": 29352,
+    "parse_fail": 0
+  },
+  "elapsed_s": 4056.6,
+  "sets": [
+    "en_dev",
+    "en_test",
+    "vi_dev",
+    "vi_test",
+    "tr_dev",
+    "tr_test"
+  ]
+}

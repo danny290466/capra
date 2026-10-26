@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or these artefacts, please cite the paper given under 'preferred-citation'."
+title: "CAPRA: capacity-aware parity risk allocation — analysis code and frozen artefacts"
+abstract: "Analysis code and frozen artefacts for CAPRA, the allocation of a bounded human-review budget between language populations: the achievable set of allocations, the price of parity and the price of composition, the L-group solver, the matched-budget audit against group-conditional risk control, and the consistency checks. Per-item detector scores and per-seed metrics are included, so every reported table is reproducible without retraining."
+type: software
+authors:
+  - name: "Anonymous (under review)"
+license: CC-BY-4.0
+keywords:
+  - content moderation
+  - review capacity
+  - resource allocation
+  - group-conditional risk control
+  - multilingual fairness
+  - multilingual toxicity detection
+preferred-citation:
+  type: article
+  title: "CAPRA: auditable allocation of a bounded human-review budget across language populations in content moderation"
+  authors:
+    - name: "Anonymous (under review)"
+  year: 2026
+  status: submitted

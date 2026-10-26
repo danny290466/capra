@@ -1,0 +1,133 @@
+{
+ "per_variant": {
+  "cost_blind": {
+   "0.05": {
+    "budget": 0.05,
+    "variant": "cost_blind",
+    "ceiling_pp": 6.600164568611308,
+    "r_bar_design_pp": 6.599301164552659,
+    "r_bar_test_pp": 6.532842535304207,
+    "margin_test_pp": 0.06732203330710174,
+    "violates_test": false,
+    "parity_first_r_bar_design_pp": 6.64720582120582,
+    "parity_first_r_bar_test_pp": 6.601087898007665,
+    "parity_first_under_ceiling_design": false,
+    "alpha": 0.065,
+    "load_design": 0.049989401197604796,
+    "load_test": 0.0538392814371258,
+    "test_en_risk_pp": 5.804398614355917,
+    "test_vi_risk_pp": 7.261286456252497,
+    "test_en_coverage": 0.99304,
+    "test_vi_coverage": 0.8992814371257485
+   },
+   "0.10": {
+    "budget": 0.1,
+    "variant": "cost_blind",
+    "ceiling_pp": 5.174605705629057,
+    "r_bar_design_pp": 5.173311069582513,
+    "r_bar_test_pp": 4.959320891734088,
+    "margin_test_pp": 0.2152848138949684,
+    "violates_test": false,
+    "parity_first_r_bar_design_pp": 5.39108756866426,
+    "parity_first_r_bar_test_pp": 5.2415868373775005,
+    "parity_first_under_ceiling_design": false,
+    "alpha": 0.265,
+    "load_design": 0.09993880239520958,
+    "load_test": 0.10477532934131739,
+    "test_en_risk_pp": 4.156085999661419,
+    "test_vi_risk_pp": 5.762555783806758,
+    "test_en_coverage": 0.94512,
+    "test_vi_coverage": 0.8453293413173653
+   },
+   "0.20": {
+    "budget": 0.2,
+    "variant": "cost_blind",
+    "ceiling_pp": 3.3421144178256603,
+    "r_bar_design_pp": 3.341371733300952,
+    "r_bar_test_pp": 3.1103334336369994,
+    "margin_test_pp": 0.23178098418866094,
+    "violates_test": false,
+    "parity_first_r_bar_design_pp": 3.4760484084401995,
+    "parity_first_r_bar_test_pp": 3.2762183929967903,
+    "parity_first_under_ceiling_design": false,
+    "alpha": 0.2325,
+    "load_design": 0.19989898203592815,
+    "load_test": 0.2016023952095809,
+    "test_en_risk_pp": 3.2153914197257847,
+    "test_vi_risk_pp": 3.005275447548214,
+    "test_en_coverage": 0.9044,
+    "test_vi_coverage": 0.6923952095808383
+   }
+  },
+  "cost_aware": {
+   "0.05": {
+    "budget": 0.05,
+    "variant": "cost_aware",
+    "ceiling_pp": 6.971095602034537,
+    "r_bar_design_pp": 6.9695123950775635,
+    "r_bar_test_pp": 6.8817442383062115,
+    "margin_test_pp": 0.08935136372832525,
+    "violates_test": false,
+    "parity_first_r_bar_design_pp": 7.173884080935977,
+    "parity_first_r_bar_test_pp": 7.120404108326371,
+    "parity_first_under_ceiling_design": false,
+    "alpha": 0.2725,
+    "load_design": 0.03787149700598802,
+    "load_test": 0.04037341317365262,
+    "test_en_risk_pp": 4.940051913806601,
+    "test_vi_risk_pp": 8.82343656280582,
+    "test_en_coverage": 0.97084,
+    "test_vi_coverage": 0.9484131736526946
+   },
+   "0.10": {
+    "budget": 0.1,
+    "variant": "cost_aware",
+    "ceiling_pp": 5.753668622385751,
+    "r_bar_design_pp": 5.75294535823718,
+    "r_bar_test_pp": 5.646464920022126,
+    "margin_test_pp": 0.10720370236362506,
+    "violates_test": false,
+    "parity_first_r_bar_design_pp": 6.253906174542946,
+    "parity_first_r_bar_test_pp": 6.11508723232931,
+    "parity_first_under_ceiling_design": false,
+    "alpha": 0.2805,
+    "load_design": 0.07604419161676647,
+    "load_test": 0.08021760479041917,
+    "test_en_risk_pp": 4.068113295681345,
+    "test_vi_risk_pp": 7.224816544362908,
+    "test_en_coverage": 0.94196,
+    "test_vi_coverage": 0.8976047904191616
+   },
+   "0.20": {
+    "budget": 0.2,
+    "variant": "cost_aware",
+    "ceiling_pp": 4.048316496209039,
+    "r_bar_design_pp": 4.048070373668981,
+    "r_bar_test_pp": 3.778823196952611,
+    "margin_test_pp": 0.2694932992564278,
+    "violates_test": false,
+    "parity_first_r_bar_design_pp": 4.529320609438746,
+    "parity_first_r_bar_test_pp": 4.239430005530487,
+    "parity_first_under_ceiling_design": false,
+    "alpha": 0.2535,
+    "load_design": 0.15199550898203593,
+    "load_test": 0.1556377245508982,
+    "test_en_risk_pp": 3.017857142857143,
+    "test_vi_risk_pp": 4.539789251048079,
+    "test_en_coverage": 0.896,
+    "test_vi_coverage": 0.7927245508982036
+   }
+  }
+ },
+ "summary": {
+  "n_cells": 6,
+  "margin_test_min_pp": 0.06732203330710174,
+  "margin_test_max_pp": 0.2694932992564278,
+  "violations_on_test": [],
+  "parity_first_under_ceiling_design_all_false": true,
+  "discretisation": {
+   "sweep_step_alpha": 0.005,
+   "share_quantum_note": "1/n_cal per language (5000 EN, 2672 VI dev items)"
+  }
+ }
+}

@@ -1,0 +1,1454 @@
+{
+ "B": 200,
+ "seed": 7,
+ "budget": 0.05,
+ "guard_pp": 0.5,
+ "k_star": 0.5,
+ "seeds": [
+  "seed42",
+  "seed43",
+  "seed44",
+  "seed45",
+  "seed46"
+ ],
+ "note": "seeds and items resampled jointly; allocation reselected inside each replicate",
+ "draws": [
+  {
+   "parity_first_disparity": 0.013870874267531912,
+   "composition_price": 0.034762220699248725,
+   "queue_share": 0.9979090237519879,
+   "capacity": 0.095,
+   "load_test": 0.04782455089820359
+  },
+  {
+   "parity_first_disparity": 0.008301171386942016,
+   "composition_price": 0.03633063549779984,
+   "queue_share": 0.9980686273375973,
+   "capacity": 0.065,
+   "load_test": 0.05177664670658677
+  },
+  {
+   "parity_first_disparity": 0.012435831170146218,
+   "composition_price": 0.038767900400148665,
+   "queue_share": 0.996132423951181,
+   "capacity": 0.1,
+   "load_test": 0.05171197604790412
+  },
+  {
+   "parity_first_disparity": 0.015904010644338572,
+   "composition_price": 0.03529044191978152,
+   "queue_share": 0.996411843066478,
+   "capacity": 0.065,
+   "load_test": 0.05573892215568854
+  },
+  {
+   "parity_first_disparity": 0.009825163661129635,
+   "composition_price": 0.03264825669989602,
+   "queue_share": 0.9975259381435152,
+   "capacity": 0.105,
+   "load_test": 0.048503233532934065
+  },
+  {
+   "parity_first_disparity": 0.011463254656701394,
+   "composition_price": 0.0368037774777906,
+   "queue_share": 0.9963430923861873,
+   "capacity": 0.085,
+   "load_test": 0.05469101796407183
+  },
+  {
+   "parity_first_disparity": 0.008660182171205129,
+   "composition_price": 0.037577235753855055,
+   "queue_share": 0.9982075198299829,
+   "capacity": 0.075,
+   "load_test": 0.055788622754491035
+  },
+  {
+   "parity_first_disparity": 0.01205927832357978,
+   "composition_price": 0.034488111783266905,
+   "queue_share": 0.9961513643067851,
+   "capacity": 0.075,
+   "load_test": 0.05196646706586816
+  },
+  {
+   "parity_first_disparity": 0.004151305941763814,
+   "composition_price": 0.03803661304522353,
+   "queue_share": 0.9985451947870927,
+   "capacity": 0.095,
+   "load_test": 0.05499017964071862
+  },
+  {
+   "parity_first_disparity": 0.00618139498937198,
+   "composition_price": 0.03657701655456674,
+   "queue_share": 0.9989853185107472,
+   "capacity": 0.075,
+   "load_test": 0.05913185628742523
+  },
+  {
+   "parity_first_disparity": 0.01356275633336338,
+   "composition_price": 0.03482602076539987,
+   "queue_share": 0.9942605150500381,
+   "capacity": 0.07,
+   "load_test": 0.05575413173652688
+  },
+  {
+   "parity_first_disparity": 0.010514947829903427,
+   "composition_price": 0.03425310942946017,
+   "queue_share": 0.9975797218370924,
+   "capacity": 0.13,
+   "load_test": 0.049581077844311316
+  },
+  {
+   "parity_first_disparity": 0.005108134210581261,
+   "composition_price": 0.040134186153842864,
+   "queue_share": 0.9989597737663664,
+   "capacity": 0.08,
+   "load_test": 0.057679760479042
+  },
+  {
+   "parity_first_disparity": 0.01041251213201453,
+   "composition_price": 0.03890236802865973,
+   "queue_share": 0.997835278054429,
+   "capacity": 0.075,
+   "load_test": 0.05543437125748496
+  },
+  {
+   "parity_first_disparity": 0.010317357003764058,
+   "composition_price": 0.03629752224033707,
+   "queue_share": 0.9960797034488793,
+   "capacity": 0.075,
+   "load_test": 0.056118203592814386
+  },
+  {
+   "parity_first_disparity": 0.009636566318834278,
+   "composition_price": 0.03765238935692049,
+   "queue_share": 0.9948083439549849,
+   "capacity": 0.085,
+   "load_test": 0.05393269461077843
+  },
+  {
+   "parity_first_disparity": 0.009173374771878878,
+   "composition_price": 0.03533359294479784,
+   "queue_share": 0.9966224946798109,
+   "capacity": 0.095,
+   "load_test": 0.053293772455089816
+  },
+  {
+   "parity_first_disparity": 0.0029331071913339946,
+   "composition_price": 0.03876924408139942,
+   "queue_share": 0.9988885216006176,
+   "capacity": 0.095,
+   "load_test": 0.053982155688622746
+  },
+  {
+   "parity_first_disparity": 0.008660742440634778,
+   "composition_price": 0.034593034190437424,
+   "queue_share": 0.9992478900388218,
+   "capacity": 0.075,
+   "load_test": 0.05318371257485022
+  },
+  {
+   "parity_first_disparity": 0.010402209368884016,
+   "composition_price": 0.0385671279533596,
+   "queue_share": 0.9965694956724973,
+   "capacity": 0.115,
+   "load_test": 0.05247041916167672
+  },
+  {
+   "parity_first_disparity": 0.008152816600628214,
+   "composition_price": 0.034857017128540536,
+   "queue_share": 0.9976540935131704,
+   "capacity": 0.09,
+   "load_test": 0.051152934131736494
+  },
+  {
+   "parity_first_disparity": 0.007500625419778709,
+   "composition_price": 0.035337982678837004,
+   "queue_share": 0.995444201700922,
+   "capacity": 0.095,
+   "load_test": 0.05268011976047904
+  },
+  {
+   "parity_first_disparity": 0.013678915140854994,
+   "composition_price": 0.03819489260868802,
+   "queue_share": 0.994615855821001,
+   "capacity": 0.09,
+   "load_test": 0.05571916167664681
+  },
+  {
+   "parity_first_disparity": 0.010795819466619803,
+   "composition_price": 0.03418126263855058,
+   "queue_share": 0.998420964299137,
+   "capacity": 0.09,
+   "load_test": 0.05066383233532934
+  },
+  {
+   "parity_first_disparity": 0.013633098804332361,
+   "composition_price": 0.03315679580395714,
+   "queue_share": 0.9946570746912621,
+   "capacity": 0.07,
+   "load_test": 0.052405748502994065
+  },
+  {
+   "parity_first_disparity": 0.010432568885409436,
+   "composition_price": 0.03595532621728472,
+   "queue_share": 0.9982529918821661,
+   "capacity": 0.065,
+   "load_test": 0.05724071856287427
+  },
+  {
+   "parity_first_disparity": 0.013519942647449712,
+   "composition_price": 0.03651742593979231,
+   "queue_share": 0.9957145514927429,
+   "capacity": 0.075,
+   "load_test": 0.056003473053892305
+  },
+  {
+   "parity_first_disparity": 0.012604873083412974,
+   "composition_price": 0.03528880706833314,
+   "queue_share": 0.9960277817420675,
+   "capacity": 0.095,
+   "load_test": 0.05538467065868269
+  },
+  {
+   "parity_first_disparity": 0.0061152454936633655,
+   "composition_price": 0.03752664137542547,
+   "queue_share": 0.9982525348708238,
+   "capacity": 0.065,
+   "load_test": 0.057225748502994
+  },
+  {
+   "parity_first_disparity": 0.007299988164449878,
+   "composition_price": 0.03613372075818703,
+   "queue_share": 0.9948155391905765,
+   "capacity": 0.095,
+   "load_test": 0.05400754491017956
+  },
+  {
+   "parity_first_disparity": 0.009334502995084107,
+   "composition_price": 0.036079835637570085,
+   "queue_share": 0.9959208326209039,
+   "capacity": 0.085,
+   "load_test": 0.05393257485029945
+  },
+  {
+   "parity_first_disparity": 0.007962330385473837,
+   "composition_price": 0.03615605675348073,
+   "queue_share": 0.9971577509032473,
+   "capacity": 0.1,
+   "load_test": 0.04925676646706578
+  },
+  {
+   "parity_first_disparity": 0.00535162492645723,
+   "composition_price": 0.03351530509950738,
+   "queue_share": 0.995676412717042,
+   "capacity": 0.105,
+   "load_test": 0.05550946107784438
+  },
+  {
+   "parity_first_disparity": 0.014180145949220846,
+   "composition_price": 0.036080980086021036,
+   "queue_share": 0.9959197000524198,
+   "capacity": 0.075,
+   "load_test": 0.05391760479041918
+  },
+  {
+   "parity_first_disparity": 0.00019276083290793722,
+   "composition_price": 0.035273706420857476,
+   "queue_share": 0.996289259962893,
+   "capacity": 0.08,
+   "load_test": 0.05389760479041916
+  },
+  {
+   "parity_first_disparity": 0.004606952929357727,
+   "composition_price": 0.03387076485526195,
+   "queue_share": 0.9992206895264408,
+   "capacity": 0.065,
+   "load_test": 0.05132742514970057
+  },
+  {
+   "parity_first_disparity": 0.008919013715926571,
+   "composition_price": 0.03540170550983784,
+   "queue_share": 0.9981307783573238,
+   "capacity": 0.06,
+   "load_test": 0.05349820359281443
+  },
+  {
+   "parity_first_disparity": 0.010824791841475084,
+   "composition_price": 0.03872977582618106,
+   "queue_share": 0.9975961044142025,
+   "capacity": 0.08,
+   "load_test": 0.05823880239520962
+  },
+  {
+   "parity_first_disparity": 0.01757881692453915,
+   "composition_price": 0.03512072390027081,
+   "queue_share": 0.9985685755183552,
+   "capacity": 0.09,
+   "load_test": 0.05588838323353296
+  },
+  {
+   "parity_first_disparity": 0.0022953570277289004,
+   "composition_price": 0.034504770505307245,
+   "queue_share": 0.9966884462467409,
+   "capacity": 0.07,
+   "load_test": 0.0603946107784431
+  },
+  {
+   "parity_first_disparity": 0.01172921888532405,
+   "composition_price": 0.03447910889729992,
+   "queue_share": 0.9957150721230104,
+   "capacity": 0.09,
+   "load_test": 0.05134275449101788
+  },
+  {
+   "parity_first_disparity": 0.011140141033588034,
+   "composition_price": 0.03486898541592183,
+   "queue_share": 0.9965188429495565,
+   "capacity": 0.065,
+   "load_test": 0.05170694610778437
+  },
+  {
+   "parity_first_disparity": 0.008561326685265859,
+   "composition_price": 0.03644459361928694,
+   "queue_share": 0.9996215657659777,
+   "capacity": 0.09,
+   "load_test": 0.052849341317365295
+  },
+  {
+   "parity_first_disparity": 0.013630318917507545,
+   "composition_price": 0.038201506882985015,
+   "queue_share": 0.9967953296674006,
+   "capacity": 0.085,
+   "load_test": 0.05616802395209586
+  },
+  {
+   "parity_first_disparity": 0.01072938272742209,
+   "composition_price": 0.03385773499633414,
+   "queue_share": 0.9980379947601539,
+   "capacity": 0.105,
+   "load_test": 0.05096826347305394
+  },
+  {
+   "parity_first_disparity": 0.011533560317913992,
+   "composition_price": 0.03833280386247604,
+   "queue_share": 0.9974538364928505,
+   "capacity": 0.09,
+   "load_test": 0.06283964071856285
+  },
+  {
+   "parity_first_disparity": 0.016579296618276083,
+   "composition_price": 0.03709066440173686,
+   "queue_share": 0.9980753051275256,
+   "capacity": 0.105,
+   "load_test": 0.05195628742514968
+  },
+  {
+   "parity_first_disparity": 0.006421112719657715,
+   "composition_price": 0.0372135393185084,
+   "queue_share": 0.9952936942873993,
+   "capacity": 0.095,
+   "load_test": 0.055245029940119705
+  },
+  {
+   "parity_first_disparity": 0.008574235836196875,
+   "composition_price": 0.03936489548983076,
+   "queue_share": 0.997406797783467,
+   "capacity": 0.06,
+   "load_test": 0.053987305389221474
+  },
+  {
+   "parity_first_disparity": 0.0032683527117966377,
+   "composition_price": 0.03639561252379337,
+   "queue_share": 0.9962809963366704,
+   "capacity": 0.09,
+   "load_test": 0.05377784431137722
+  },
+  {
+   "parity_first_disparity": 0.006798088821765497,
+   "composition_price": 0.03481243967492876,
+   "queue_share": 0.9960939784116296,
+   "capacity": 0.075,
+   "load_test": 0.05120299401197603
+  },
+  {
+   "parity_first_disparity": 0.010833726302388234,
+   "composition_price": 0.034892544267923174,
+   "queue_share": 0.9938687049245408,
+   "capacity": 0.075,
+   "load_test": 0.05219125748502995
+  },
+  {
+   "parity_first_disparity": 0.006181807898813688,
+   "composition_price": 0.03622119792094755,
+   "queue_share": 0.997355466876601,
+   "capacity": 0.075,
+   "load_test": 0.05293940119760476
+  },
+  {
+   "parity_first_disparity": 0.01262874473708897,
+   "composition_price": 0.03650455533185009,
+   "queue_share": 0.9985593139919076,
+   "capacity": 0.09,
+   "load_test": 0.05552910179640724
+  },
+  {
+   "parity_first_disparity": 0.01295907165712732,
+   "composition_price": 0.03302598986066337,
+   "queue_share": 0.9969538471360236,
+   "capacity": 0.085,
+   "load_test": 0.05252526946107783
+  },
+  {
+   "parity_first_disparity": 0.012405834338450779,
+   "composition_price": 0.037103894077757375,
+   "queue_share": 0.9954775167379796,
+   "capacity": 0.085,
+   "load_test": 0.05749053892215561
+  },
+  {
+   "parity_first_disparity": 0.005266088848827885,
+   "composition_price": 0.03959553385441699,
+   "queue_share": 0.9982410313665186,
+   "capacity": 0.085,
+   "load_test": 0.056851497005988016
+  },
+  {
+   "parity_first_disparity": 0.01173716669715464,
+   "composition_price": 0.03221034616476836,
+   "queue_share": 0.9967530337018576,
+   "capacity": 0.1,
+   "load_test": 0.04927676646706591
+  },
+  {
+   "parity_first_disparity": 0.0035977198392979637,
+   "composition_price": 0.03327701759195651,
+   "queue_share": 0.9988568194938516,
+   "capacity": 0.1,
+   "load_test": 0.05248514970059881
+  },
+  {
+   "parity_first_disparity": 0.007679358986979343,
+   "composition_price": 0.03623975480999029,
+   "queue_share": 0.9958595383509224,
+   "capacity": 0.085,
+   "load_test": 0.057964550898203626
+  },
+  {
+   "parity_first_disparity": 0.003919013342398386,
+   "composition_price": 0.03756601133921093,
+   "queue_share": 0.9975590861920287,
+   "capacity": 0.065,
+   "load_test": 0.05735556886227544
+  },
+  {
+   "parity_first_disparity": 0.010130282705161843,
+   "composition_price": 0.033543997449578825,
+   "queue_share": 0.9951725849073417,
+   "capacity": 0.085,
+   "load_test": 0.049716047904191596
+  },
+  {
+   "parity_first_disparity": 0.007061741106774447,
+   "composition_price": 0.037010407124888914,
+   "queue_share": 0.9974630746060066,
+   "capacity": 0.07,
+   "load_test": 0.05518491017964067
+  },
+  {
+   "parity_first_disparity": 0.007412589542515502,
+   "composition_price": 0.03436290536964072,
+   "queue_share": 0.9977502205996267,
+   "capacity": 0.105,
+   "load_test": 0.05333856287425154
+  },
+  {
+   "parity_first_disparity": 0.0006485321947244382,
+   "composition_price": 0.03624275527222479,
+   "queue_share": 0.9952641785607556,
+   "capacity": 0.085,
+   "load_test": 0.05490071856287426
+  },
+  {
+   "parity_first_disparity": 0.0013870624381681768,
+   "composition_price": 0.03858055604058595,
+   "queue_share": 0.9955743192279626,
+   "capacity": 0.065,
+   "load_test": 0.058748023952095774
+  },
+  {
+   "parity_first_disparity": 0.009947095978338337,
+   "composition_price": 0.03650067050697119,
+   "queue_share": 0.9979561531620471,
+   "capacity": 0.065,
+   "load_test": 0.058712814371257416
+  },
+  {
+   "parity_first_disparity": 0.009696870974421665,
+   "composition_price": 0.035790689145262886,
+   "queue_share": 0.9968927414346884,
+   "capacity": 0.09,
+   "load_test": 0.05149233532934128
+  },
+  {
+   "parity_first_disparity": 0.0055701903893162485,
+   "composition_price": 0.038844148317157684,
+   "queue_share": 0.9976972240288465,
+   "capacity": 0.11,
+   "load_test": 0.052111017964071804
+  },
+  {
+   "parity_first_disparity": 0.0051796820276537175,
+   "composition_price": 0.03747471824780213,
+   "queue_share": 0.9965947555156802,
+   "capacity": 0.09,
+   "load_test": 0.05285964071856286
+  },
+  {
+   "parity_first_disparity": 0.015515731775415903,
+   "composition_price": 0.034968968940837106,
+   "queue_share": 0.995160928116601,
+   "capacity": 0.1,
+   "load_test": 0.049596287425149654
+  },
+  {
+   "parity_first_disparity": 0.00999673279061579,
+   "composition_price": 0.032959509634794756,
+   "queue_share": 0.9959343745642788,
+   "capacity": 0.1,
+   "load_test": 0.054112215568862254
+  },
+  {
+   "parity_first_disparity": 0.013486691715245122,
+   "composition_price": 0.0319860907281237,
+   "queue_share": 0.9968347682699735,
+   "capacity": 0.1,
+   "load_test": 0.05054922155688624
+  },
+  {
+   "parity_first_disparity": 0.007734917914122799,
+   "composition_price": 0.039383786547466354,
+   "queue_share": 0.9952427751427879,
+   "capacity": 0.085,
+   "load_test": 0.058857844311377194
+  },
+  {
+   "parity_first_disparity": 0.004299224798343479,
+   "composition_price": 0.037199454536597044,
+   "queue_share": 0.9992674779969254,
+   "capacity": 0.08,
+   "load_test": 0.05460586826347302
+  },
+  {
+   "parity_first_disparity": 0.008467167405900963,
+   "composition_price": 0.03680138401889048,
+   "queue_share": 0.9980680687628701,
+   "capacity": 0.1,
+   "load_test": 0.05176167664670661
+  },
+  {
+   "parity_first_disparity": 0.014086209956694871,
+   "composition_price": 0.03686602154919434,
+   "queue_share": 0.9979871515180737,
+   "capacity": 0.09,
+   "load_test": 0.04968083832335335
+  },
+  {
+   "parity_first_disparity": 0.013575974603297083,
+   "composition_price": 0.028780997105780422,
+   "queue_share": 0.9989084991100237,
+   "capacity": 0.07,
+   "load_test": 0.054970179640718486
+  },
+  {
+   "parity_first_disparity": 0.018759060615422006,
+   "composition_price": 0.03487722837907398,
+   "queue_share": 0.997272158751494,
+   "capacity": 0.085,
+   "load_test": 0.051322634730538885
+  },
+  {
+   "parity_first_disparity": 0.011478951975487608,
+   "composition_price": 0.03627562771326696,
+   "queue_share": 0.9972689723486375,
+   "capacity": 0.08,
+   "load_test": 0.051262754491017914
+  },
+  {
+   "parity_first_disparity": 0.010090612151313301,
+   "composition_price": 0.031149518945734256,
+   "queue_share": 0.9985053186490582,
+   "capacity": 0.09,
+   "load_test": 0.05352311377245511
+  },
+  {
+   "parity_first_disparity": 0.004068662326595994,
+   "composition_price": 0.03642647845675968,
+   "queue_share": 0.9985852493180389,
+   "capacity": 0.095,
+   "load_test": 0.056547065868263524
+  },
+  {
+   "parity_first_disparity": 0.01764545818327331,
+   "composition_price": 0.03435895548577273,
+   "queue_share": 0.9963530747728865,
+   "capacity": 0.075,
+   "load_test": 0.0548407185628742
+  },
+  {
+   "parity_first_disparity": 0.014721141369668782,
+   "composition_price": 0.03111316012491007,
+   "queue_share": 0.9983758537101283,
+   "capacity": 0.075,
+   "load_test": 0.049256646706586915
+  },
+  {
+   "parity_first_disparity": 0.00909809055522448,
+   "composition_price": 0.036709228656438164,
+   "queue_share": 0.9980890699377519,
+   "capacity": 0.105,
+   "load_test": 0.05233053892215567
+  },
+  {
+   "parity_first_disparity": 0.001070498957630145,
+   "composition_price": 0.03930933441741468,
+   "queue_share": 0.9943666611107141,
+   "capacity": 0.08,
+   "load_test": 0.06035497005988022
+  },
+  {
+   "parity_first_disparity": 0.005731528949511608,
+   "composition_price": 0.03523290188130512,
+   "queue_share": 0.9972177861765152,
+   "capacity": 0.085,
+   "load_test": 0.050319640718562875
+  },
+  {
+   "parity_first_disparity": 0.008371857534000493,
+   "composition_price": 0.03399922657424972,
+   "queue_share": 0.9981707049905799,
+   "capacity": 0.095,
+   "load_test": 0.05466586826347308
+  },
+  {
+   "parity_first_disparity": 0.004831167740262085,
+   "composition_price": 0.03229063750271847,
+   "queue_share": 0.9988166546993688,
+   "capacity": 0.085,
+   "load_test": 0.05070371257485029
+  },
+  {
+   "parity_first_disparity": 0.005825862074166938,
+   "composition_price": 0.03699484880968802,
+   "queue_share": 0.9943871088358924,
+   "capacity": 0.06,
+   "load_test": 0.057011616766467044
+  },
+  {
+   "parity_first_disparity": 0.006122451707999278,
+   "composition_price": 0.03463439882613669,
+   "queue_share": 0.9977739615708454,
+   "capacity": 0.095,
+   "load_test": 0.053907425149700594
+  },
+  {
+   "parity_first_disparity": 0.008813574722517509,
+   "composition_price": 0.034910824055325876,
+   "queue_share": 0.9947720661072017,
+   "capacity": 0.115,
+   "load_test": 0.05355844311377245
+  },
+  {
+   "parity_first_disparity": 0.005460597011688689,
+   "composition_price": 0.03700799534953127,
+   "queue_share": 0.9985542471155278,
+   "capacity": 0.08,
+   "load_test": 0.05533449101796406
+  },
+  {
+   "parity_first_disparity": 0.000893035587083868,
+   "composition_price": 0.03716964643585436,
+   "queue_share": 0.9970050618042262,
+   "capacity": 0.09,
+   "load_test": 0.05342347305389228
+  },
+  {
+   "parity_first_disparity": 0.0053569790254944655,
+   "composition_price": 0.035759681303233294,
+   "queue_share": 0.9963953852297136,
+   "capacity": 0.075,
+   "load_test": 0.0554844311377245
+  },
+  {
+   "parity_first_disparity": 0.007134346332353721,
+   "composition_price": 0.035749263636192324,
+   "queue_share": 0.9981478811538591,
+   "capacity": 0.105,
+   "load_test": 0.053992215568862245
+  },
+  {
+   "parity_first_disparity": 0.006380907562061652,
+   "composition_price": 0.03721707595331087,
+   "queue_share": 0.997027550777487,
+   "capacity": 0.085,
+   "load_test": 0.05382766467065869
+  },
+  {
+   "parity_first_disparity": 0.00724208073500205,
+   "composition_price": 0.035850089880306205,
+   "queue_share": 0.9959264860453875,
+   "capacity": 0.075,
+   "load_test": 0.05400742514970058
+  },
+  {
+   "parity_first_disparity": 0.007259448076013357,
+   "composition_price": 0.03596574610808342,
+   "queue_share": 0.9980988593155896,
+   "capacity": 0.095,
+   "load_test": 0.05259999999999998
+  },
+  {
+   "parity_first_disparity": 0.014329652488519452,
+   "composition_price": 0.03523186132437976,
+   "queue_share": 0.9973190778912225,
+   "capacity": 0.075,
+   "load_test": 0.052220838323353336
+  },
+  {
+   "parity_first_disparity": 0.01197786994019688,
+   "composition_price": 0.034511917426647686,
+   "queue_share": 0.9954916041250469,
+   "capacity": 0.075,
+   "load_test": 0.053234011976047935
+  },
+  {
+   "parity_first_disparity": 0.012499112249047109,
+   "composition_price": 0.035806767983270024,
+   "queue_share": 0.9976347116685196,
+   "capacity": 0.09,
+   "load_test": 0.05073377245508981
+  },
+  {
+   "parity_first_disparity": 0.0010972064311672441,
+   "composition_price": 0.03703046387367035,
+   "queue_share": 0.9945455139301691,
+   "capacity": 0.095,
+   "load_test": 0.05500059880239516
+  },
+  {
+   "parity_first_disparity": 0.016172301641025157,
+   "composition_price": 0.03581546138721763,
+   "queue_share": 0.996739717528953,
+   "capacity": 0.08,
+   "load_test": 0.05520994011976055
+  },
+  {
+   "parity_first_disparity": 0.006987045857898597,
+   "composition_price": 0.03775767780079548,
+   "queue_share": 0.9975884592613271,
+   "capacity": 0.11,
+   "load_test": 0.04976071856287434
+  },
+  {
+   "parity_first_disparity": 0.009038503758144079,
+   "composition_price": 0.034218704378032,
+   "queue_share": 0.9989147058441248,
+   "capacity": 0.085,
+   "load_test": 0.05528455089820361
+  },
+  {
+   "parity_first_disparity": 0.012667056469627819,
+   "composition_price": 0.03297038967190773,
+   "queue_share": 0.9981509571841405,
+   "capacity": 0.075,
+   "load_test": 0.05408203592814376
+  },
+  {
+   "parity_first_disparity": 0.013402269748681264,
+   "composition_price": 0.03543958691806981,
+   "queue_share": 0.9981954139741956,
+   "capacity": 0.07,
+   "load_test": 0.05541437125748505
+  },
+  {
+   "parity_first_disparity": 0.00354636693147245,
+   "composition_price": 0.035596954641049235,
+   "queue_share": 0.997489520879319,
+   "capacity": 0.09,
+   "load_test": 0.04779964071856291
+  },
+  {
+   "parity_first_disparity": 0.01194860927474116,
+   "composition_price": 0.03515954005580936,
+   "queue_share": 0.9980562636032452,
+   "capacity": 0.09,
+   "load_test": 0.05144730538922149
+  },
+  {
+   "parity_first_disparity": 0.0010060156031246464,
+   "composition_price": 0.0363526703497704,
+   "queue_share": 0.9985169331598643,
+   "capacity": 0.08,
+   "load_test": 0.053942275449101795
+  },
+  {
+   "parity_first_disparity": 0.011975423716558048,
+   "composition_price": 0.03721884053269777,
+   "queue_share": 0.9985662713181285,
+   "capacity": 0.08,
+   "load_test": 0.055798562874251445
+  },
+  {
+   "parity_first_disparity": 0.009110801395766699,
+   "composition_price": 0.036870466045283205,
+   "queue_share": 0.9959996689981969,
+   "capacity": 0.075,
+   "load_test": 0.05499544910179632
+  },
+  {
+   "parity_first_disparity": 0.008876427106797272,
+   "composition_price": 0.036328319237416716,
+   "queue_share": 0.9965957196213839,
+   "capacity": 0.08,
+   "load_test": 0.05287461077844313
+  },
+  {
+   "parity_first_disparity": 0.006756608084723614,
+   "composition_price": 0.03603568785906634,
+   "queue_share": 0.9981509571841405,
+   "capacity": 0.1,
+   "load_test": 0.05408203592814376
+  },
+  {
+   "parity_first_disparity": 0.004812102275855296,
+   "composition_price": 0.0344308136179363,
+   "queue_share": 0.9973160002204146,
+   "capacity": 0.085,
+   "load_test": 0.052160958083832254
+  },
+  {
+   "parity_first_disparity": 0.007611933232630735,
+   "composition_price": 0.0375279419472907,
+   "queue_share": 0.9978335228820631,
+   "capacity": 0.095,
+   "load_test": 0.05538946107784426
+  },
+  {
+   "parity_first_disparity": 0.015694280836534354,
+   "composition_price": 0.038639274254786776,
+   "queue_share": 0.9968663213990844,
+   "capacity": 0.09,
+   "load_test": 0.05105820359281443
+  },
+  {
+   "parity_first_disparity": 0.009614505950009254,
+   "composition_price": 0.03819994725516187,
+   "queue_share": 0.9955504142067011,
+   "capacity": 0.115,
+   "load_test": 0.0539376047904192
+  },
+  {
+   "parity_first_disparity": 0.008148924195182664,
+   "composition_price": 0.03618468306366303,
+   "queue_share": 0.997284337579605,
+   "capacity": 0.075,
+   "load_test": 0.0589174850299401
+  },
+  {
+   "parity_first_disparity": 0.006149664476741701,
+   "composition_price": 0.03604017488823478,
+   "queue_share": 0.9965904102736863,
+   "capacity": 0.085,
+   "load_test": 0.058658083832335284
+  },
+  {
+   "parity_first_disparity": 0.014279075927107983,
+   "composition_price": 0.03396660920686678,
+   "queue_share": 0.9955310459534458,
+   "capacity": 0.07,
+   "load_test": 0.05817916167664672
+  },
+  {
+   "parity_first_disparity": 0.006572520864177291,
+   "composition_price": 0.0357809875063805,
+   "queue_share": 0.9969924202687462,
+   "capacity": 0.085,
+   "load_test": 0.053198922155688555
+  },
+  {
+   "parity_first_disparity": 0.005884647931639578,
+   "composition_price": 0.037248137322613444,
+   "queue_share": 0.998193461846347,
+   "capacity": 0.09,
+   "load_test": 0.05535449101796408
+  },
+  {
+   "parity_first_disparity": 0.010300189910041446,
+   "composition_price": 0.035516953238319514,
+   "queue_share": 0.9960698484420601,
+   "capacity": 0.08,
+   "load_test": 0.05088862275449102
+  },
+  {
+   "parity_first_disparity": 0.012515480637288197,
+   "composition_price": 0.035117375770584894,
+   "queue_share": 0.9965198505133391,
+   "capacity": 0.09,
+   "load_test": 0.05172191616766475
+  },
+  {
+   "parity_first_disparity": 0.0048754369904462705,
+   "composition_price": 0.03916398041860517,
+   "queue_share": 0.9955798570291078,
+   "capacity": 0.085,
+   "load_test": 0.054296886227544916
+  },
+  {
+   "parity_first_disparity": 0.011068231806165438,
+   "composition_price": 0.03340033185124601,
+   "queue_share": 0.9976333149887687,
+   "capacity": 0.095,
+   "load_test": 0.05070383233532927
+  },
+  {
+   "parity_first_disparity": 0.0028636056687439265,
+   "composition_price": 0.0355438977119756,
+   "queue_share": 0.9963783394336906,
+   "capacity": 0.085,
+   "load_test": 0.04970095808383235
+  },
+  {
+   "parity_first_disparity": 0.014498267123299768,
+   "composition_price": 0.036135575701020745,
+   "queue_share": 0.9976602561108878,
+   "capacity": 0.075,
+   "load_test": 0.051287664670658706
+  },
+  {
+   "parity_first_disparity": 0.007227701343968912,
+   "composition_price": 0.03643229324190865,
+   "queue_share": 0.9977110327308611,
+   "capacity": 0.085,
+   "load_test": 0.05242538922155693
+  },
+  {
+   "parity_first_disparity": 0.0034042474810586087,
+   "composition_price": 0.0285218578958183,
+   "queue_share": 0.9986117115020113,
+   "capacity": 0.075,
+   "load_test": 0.057624910179640665
+  },
+  {
+   "parity_first_disparity": 0.01154403345273148,
+   "composition_price": 0.03510340636855879,
+   "queue_share": 0.9984162847652753,
+   "capacity": 0.1,
+   "load_test": 0.05051413173652697
+  },
+  {
+   "parity_first_disparity": 0.00642733757383343,
+   "composition_price": 0.036116421247885507,
+   "queue_share": 0.9953368671379437,
+   "capacity": 0.095,
+   "load_test": 0.051467544910179686
+  },
+  {
+   "parity_first_disparity": 0.006176936759337802,
+   "composition_price": 0.033336075315082675,
+   "queue_share": 0.998519398538903,
+   "capacity": 0.09,
+   "load_test": 0.05403209580838331
+  },
+  {
+   "parity_first_disparity": 0.005395255385815673,
+   "composition_price": 0.0358932764558005,
+   "queue_share": 0.9985818704449483,
+   "capacity": 0.07,
+   "load_test": 0.05641233532934131
+  },
+  {
+   "parity_first_disparity": 0.012514896457114684,
+   "composition_price": 0.031424939781556686,
+   "queue_share": 0.99814479487208,
+   "capacity": 0.07,
+   "load_test": 0.053902395209580845
+  },
+  {
+   "parity_first_disparity": 0.008271592677847703,
+   "composition_price": 0.035289188928798676,
+   "queue_share": 0.9947622084452851,
+   "capacity": 0.095,
+   "load_test": 0.05727604790419161
+  },
+  {
+   "parity_first_disparity": 0.01288929980953113,
+   "composition_price": 0.034995281955571535,
+   "queue_share": 0.9936835875620738,
+   "capacity": 0.095,
+   "load_test": 0.05382802395209585
+  },
+  {
+   "parity_first_disparity": 0.012774579746641111,
+   "composition_price": 0.036896592215210154,
+   "queue_share": 0.995758358020444,
+   "capacity": 0.085,
+   "load_test": 0.05186670658682635
+  },
+  {
+   "parity_first_disparity": 0.011603382226506469,
+   "composition_price": 0.0370825845258148,
+   "queue_share": 0.99747062221828,
+   "capacity": 0.09,
+   "load_test": 0.05534958083832331
+  },
+  {
+   "parity_first_disparity": 0.014004783039569951,
+   "composition_price": 0.035038965807213905,
+   "queue_share": 0.9926834273750039,
+   "capacity": 0.085,
+   "load_test": 0.05193688622754489
+  },
+  {
+   "parity_first_disparity": 0.007948327486141757,
+   "composition_price": 0.036662606094561644,
+   "queue_share": 0.9988277301486278,
+   "capacity": 0.085,
+   "load_test": 0.051182754491017945
+  },
+  {
+   "parity_first_disparity": 0.018300179234538846,
+   "composition_price": 0.03376912432847353,
+   "queue_share": 0.9957225551969674,
+   "capacity": 0.085,
+   "load_test": 0.051432574850299395
+  },
+  {
+   "parity_first_disparity": 0.016213148878699478,
+   "composition_price": 0.03780383562190238,
+   "queue_share": 0.9945623228045204,
+   "capacity": 0.075,
+   "load_test": 0.051492574850299455
+  },
+  {
+   "parity_first_disparity": 0.009684210642816778,
+   "composition_price": 0.03800585866009908,
+   "queue_share": 0.9982256128010882,
+   "capacity": 0.095,
+   "load_test": 0.05635748502994009
+  },
+  {
+   "parity_first_disparity": 0.0032911480822278155,
+   "composition_price": 0.036445190316825006,
+   "queue_share": 0.9959544083625048,
+   "capacity": 0.105,
+   "load_test": 0.049436526946107784
+  },
+  {
+   "parity_first_disparity": 0.009707623082712863,
+   "composition_price": 0.03549229223960166,
+   "queue_share": 0.9976885919788142,
+   "capacity": 0.09,
+   "load_test": 0.05191640718562873
+  },
+  {
+   "parity_first_disparity": 0.007226454127862256,
+   "composition_price": 0.03597209891518087,
+   "queue_share": 0.9960018456368536,
+   "capacity": 0.125,
+   "load_test": 0.055025389221556864
+  },
+  {
+   "parity_first_disparity": 0.008953397235278923,
+   "composition_price": 0.03681301870488067,
+   "queue_share": 0.9984719833107634,
+   "capacity": 0.1,
+   "load_test": 0.05235544910179646
+  },
+  {
+   "parity_first_disparity": 0.005525914938073709,
+   "composition_price": 0.04016092380169424,
+   "queue_share": 0.9962454613923272,
+   "capacity": 0.08,
+   "load_test": 0.053268862275449136
+  },
+  {
+   "parity_first_disparity": 0.01129014673947372,
+   "composition_price": 0.03808674320141964,
+   "queue_share": 0.9979313633801769,
+   "capacity": 0.07,
+   "load_test": 0.05800922155688626
+  },
+  {
+   "parity_first_disparity": 0.009715498475713069,
+   "composition_price": 0.035543051443368875,
+   "queue_share": 0.997635010742595,
+   "capacity": 0.085,
+   "load_test": 0.05919688622754493
+  },
+  {
+   "parity_first_disparity": 0.012827364470474528,
+   "composition_price": 0.03345023584963063,
+   "queue_share": 0.995978872114124,
+   "capacity": 0.09,
+   "load_test": 0.05471101796407185
+  },
+  {
+   "parity_first_disparity": 0.005308293074656523,
+   "composition_price": 0.03625053141292997,
+   "queue_share": 0.9967970369928373,
+   "capacity": 0.095,
+   "load_test": 0.05619796407185629
+  },
+  {
+   "parity_first_disparity": 0.009778862617531664,
+   "composition_price": 0.0363050958497153,
+   "queue_share": 0.9966394859285458,
+   "capacity": 0.095,
+   "load_test": 0.05356323353293413
+  },
+  {
+   "parity_first_disparity": 0.005949113142520404,
+   "composition_price": 0.03323720327379566,
+   "queue_share": 0.9957012849343727,
+   "capacity": 0.09,
+   "load_test": 0.05117808383233535
+  },
+  {
+   "parity_first_disparity": 0.0042222953405175595,
+   "composition_price": 0.03545109639724767,
+   "queue_share": 0.9970200920738019,
+   "capacity": 0.085,
+   "load_test": 0.05369293413173648
+  },
+  {
+   "parity_first_disparity": 0.0068452521897799795,
+   "composition_price": 0.035500816185516405,
+   "queue_share": 0.9931494279675198,
+   "capacity": 0.055,
+   "load_test": 0.055469820359281385
+  },
+  {
+   "parity_first_disparity": 0.008845450577660091,
+   "composition_price": 0.03603501342760188,
+   "queue_share": 0.9985189882117665,
+   "capacity": 0.095,
+   "load_test": 0.054017125748503036
+  },
+  {
+   "parity_first_disparity": 0.005540183387913233,
+   "composition_price": 0.03820613423262217,
+   "queue_share": 0.9957778559230683,
+   "capacity": 0.095,
+   "load_test": 0.05210622754491023
+  },
+  {
+   "parity_first_disparity": 0.014812735094003049,
+   "composition_price": 0.03334724533589758,
+   "queue_share": 0.9949045196779691,
+   "capacity": 0.095,
+   "load_test": 0.05495065868263471
+  },
+  {
+   "parity_first_disparity": 0.009517801852425622,
+   "composition_price": 0.038264887231931624,
+   "queue_share": 0.9953095816540044,
+   "capacity": 0.1,
+   "load_test": 0.059696167664670674
+  },
+  {
+   "parity_first_disparity": 0.015591889367956163,
+   "composition_price": 0.03326590446619979,
+   "queue_share": 0.9992684807176776,
+   "capacity": 0.07,
+   "load_test": 0.05468071856287415
+  },
+  {
+   "parity_first_disparity": 0.010777314048306591,
+   "composition_price": 0.03825970742374899,
+   "queue_share": 0.997824113684631,
+   "capacity": 0.085,
+   "load_test": 0.05514994011976049
+  },
+  {
+   "parity_first_disparity": 0.009632149193673875,
+   "composition_price": 0.034276453331915396,
+   "queue_share": 0.9972777171014795,
+   "capacity": 0.1,
+   "load_test": 0.051427425149700556
+  },
+  {
+   "parity_first_disparity": 0.010359407314581313,
+   "composition_price": 0.031767779794420296,
+   "queue_share": 0.9928016914777292,
+   "capacity": 0.09,
+   "load_test": 0.05279017964071864
+  },
+  {
+   "parity_first_disparity": 0.017219767363042794,
+   "composition_price": 0.03211784640391393,
+   "queue_share": 0.996389215212863,
+   "capacity": 0.1,
+   "load_test": 0.04985065868263472
+  },
+  {
+   "parity_first_disparity": 0.00933744344806136,
+   "composition_price": 0.03285091927793051,
+   "queue_share": 0.9981816598070602,
+   "capacity": 0.095,
+   "load_test": 0.05499520958083837
+  },
+  {
+   "parity_first_disparity": 0.0070569741033370825,
+   "composition_price": 0.035506169471285695,
+   "queue_share": 0.995592010188527,
+   "capacity": 0.085,
+   "load_test": 0.05444658682634729
+  },
+  {
+   "parity_first_disparity": 0.0018051856183073228,
+   "composition_price": 0.0333106641031721,
+   "queue_share": 0.9984366699197034,
+   "capacity": 0.075,
+   "load_test": 0.051172814371257536
+  },
+  {
+   "parity_first_disparity": 0.017465688824210353,
+   "composition_price": 0.03498612999475479,
+   "queue_share": 0.9981411811847467,
+   "capacity": 0.08,
+   "load_test": 0.05379760479041917
+  },
+  {
+   "parity_first_disparity": 0.012493785248741153,
+   "composition_price": 0.035948552389575096,
+   "queue_share": 0.998551504007216,
+   "capacity": 0.07,
+   "load_test": 0.0552297005988025
+  },
+  {
+   "parity_first_disparity": 0.009622329707769897,
+   "composition_price": 0.03438201680230622,
+   "queue_share": 0.9979561531620471,
+   "capacity": 0.08,
+   "load_test": 0.058712814371257416
+  },
+  {
+   "parity_first_disparity": 0.008463313104783834,
+   "composition_price": 0.03690895304135114,
+   "queue_share": 0.9975339841871224,
+   "capacity": 0.07,
+   "load_test": 0.056771736526946004
+  },
+  {
+   "parity_first_disparity": 0.013807690676443253,
+   "composition_price": 0.03707641955399195,
+   "queue_share": 0.9969256133432061,
+   "capacity": 0.085,
+   "load_test": 0.05854826347305386
+  },
+  {
+   "parity_first_disparity": 0.008408780283347086,
+   "composition_price": 0.03615472942543243,
+   "queue_share": 0.9981432478708503,
+   "capacity": 0.085,
+   "load_test": 0.05385748502994003
+  },
+  {
+   "parity_first_disparity": 0.012149170185377416,
+   "composition_price": 0.03792307619892154,
+   "queue_share": 0.9969564494340045,
+   "capacity": 0.08,
+   "load_test": 0.05257017964071853
+  },
+  {
+   "parity_first_disparity": 0.013446864144045688,
+   "composition_price": 0.03397952103360704,
+   "queue_share": 0.9959298705845079,
+   "capacity": 0.11,
+   "load_test": 0.054052335329341394
+  },
+  {
+   "parity_first_disparity": 0.008228738916286782,
+   "composition_price": 0.03643104359889114,
+   "queue_share": 0.9948361285473374,
+   "capacity": 0.08,
+   "load_test": 0.05034982035928137
+  },
+  {
+   "parity_first_disparity": 0.005722123590688105,
+   "composition_price": 0.03613605970129107,
+   "queue_share": 0.9980934331902459,
+   "capacity": 0.08,
+   "load_test": 0.05245029940119761
+  },
+  {
+   "parity_first_disparity": 0.017405051386654116,
+   "composition_price": 0.03332561211599057,
+   "queue_share": 0.9982461115137005,
+   "capacity": 0.075,
+   "load_test": 0.05701616766467066
+  },
+  {
+   "parity_first_disparity": 0.006017438371654006,
+   "composition_price": 0.037669420844037134,
+   "queue_share": 0.9946248301579674,
+   "capacity": 0.08,
+   "load_test": 0.05209137724550894
+  },
+  {
+   "parity_first_disparity": 0.012692051035141483,
+   "composition_price": 0.037058814369753404,
+   "queue_share": 0.9969213823362009,
+   "capacity": 0.095,
+   "load_test": 0.05197137724550904
+  },
+  {
+   "parity_first_disparity": 0.00860729484763808,
+   "composition_price": 0.03492311154244788,
+   "queue_share": 0.9975436996631785,
+   "capacity": 0.08,
+   "load_test": 0.05699628742514973
+  },
+  {
+   "parity_first_disparity": 0.0063134392150996504,
+   "composition_price": 0.037952193149875905,
+   "queue_share": 0.9945176955562381,
+   "capacity": 0.095,
+   "load_test": 0.05107341317365277
+  },
+  {
+   "parity_first_disparity": 0.006872029588732287,
+   "composition_price": 0.0373377658226188,
+   "queue_share": 0.999606634914802,
+   "capacity": 0.08,
+   "load_test": 0.05084335329341316
+  },
+  {
+   "parity_first_disparity": 0.012117057497371152,
+   "composition_price": 0.0375380871031823,
+   "queue_share": 0.9973988638664592,
+   "capacity": 0.065,
+   "load_test": 0.05382263473053883
+  },
+  {
+   "parity_first_disparity": 0.00835102582887099,
+   "composition_price": 0.03590947796419582,
+   "queue_share": 0.9972407705071653,
+   "capacity": 0.1,
+   "load_test": 0.05073880239520956
+  },
+  {
+   "parity_first_disparity": 0.009576725853498079,
+   "composition_price": 0.03236714193852554,
+   "queue_share": 0.9957806440202635,
+   "capacity": 0.06,
+   "load_test": 0.04740059880239511
+  },
+  {
+   "parity_first_disparity": 0.014057585532972032,
+   "composition_price": 0.03436873570870734,
+   "queue_share": 0.9972285049099803,
+   "capacity": 0.105,
+   "load_test": 0.050514251497005946
+  },
+  {
+   "parity_first_disparity": 0.0028036884448720822,
+   "composition_price": 0.039360787343048785,
+   "queue_share": 0.997724676811005,
+   "capacity": 0.105,
+   "load_test": 0.05273976047904194
+  },
+  {
+   "parity_first_disparity": 0.010496427293073401,
+   "composition_price": 0.03940201716747524,
+   "queue_share": 0.9968482504959337,
+   "capacity": 0.075,
+   "load_test": 0.0571111377245509
+  },
+  {
+   "parity_first_disparity": 0.008520031131183908,
+   "composition_price": 0.03543610222075822,
+   "queue_share": 0.9982768760898503,
+   "capacity": 0.075,
+   "load_test": 0.05803413173652694
+  },
+  {
+   "parity_first_disparity": 0.007605277984268952,
+   "composition_price": 0.03416064276044787,
+   "queue_share": 0.9985818704449483,
+   "capacity": 0.065,
+   "load_test": 0.05641233532934131
+  },
+  {
+   "parity_first_disparity": 0.00710842002853794,
+   "composition_price": 0.03375158689379971,
+   "queue_share": 0.9947099644087853,
+   "capacity": 0.075,
+   "load_test": 0.05292970059880242
+  },
+  {
+   "parity_first_disparity": 0.004198208373145371,
+   "composition_price": 0.03891441808703057,
+   "queue_share": 0.9988829456344578,
+   "capacity": 0.12,
+   "load_test": 0.05371269461077843
+  },
+  {
+   "parity_first_disparity": 0.012630478294150767,
+   "composition_price": 0.03807868179351679,
+   "queue_share": 0.9935508638980131,
+   "capacity": 0.07,
+   "load_test": 0.05272023952095806
+  },
+  {
+   "parity_first_disparity": 0.006225173820490024,
+   "composition_price": 0.03583007077597587,
+   "queue_share": 0.9962070884293489,
+   "capacity": 0.06,
+   "load_test": 0.05272994011976051
+  },
+  {
+   "parity_first_disparity": 0.007298638578482217,
+   "composition_price": 0.03502209926493358,
+   "queue_share": 0.9968736544545745,
+   "capacity": 0.1,
+   "load_test": 0.05117796407185626
+  }
+ ],
+ "summary": {
+  "parity_first_disparity": {
+   "mean": 0.00917891594437264,
+   "sd": 0.0039644751164957925,
+   "p2_5": 0.0010965387443288167,
+   "p97_5": 0.017406567322593023,
+   "n": 200
+  },
+  "composition_price": {
+   "mean": 0.03581178276752345,
+   "sd": 0.001992717256958182,
+   "p2_5": 0.03175920879409871,
+   "p97_5": 0.039365367766271656,
+   "n": 200
+  },
+  "queue_share": {
+   "mean": 0.9969605847401095,
+   "sd": 0.0014331292315224902,
+   "p2_5": 0.9938640769904792,
+   "p97_5": 0.9992213695392503,
+   "n": 200
+  },
+  "capacity": {
+   "mean": 0.085775,
+   "sd": 0.013291262668256277,
+   "p2_5": 0.06,
+   "p97_5": 0.115,
+   "n": 200
+  },
+  "load_test": {
+   "mean": 0.05379072035928143,
+   "sd": 0.0027301403784618797,
+   "p2_5": 0.04925676347305381,
+   "p97_5": 0.05913348203592823,
+   "n": 200
+  }
+ }
+}

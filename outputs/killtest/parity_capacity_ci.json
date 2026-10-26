@@ -1,0 +1,91 @@
+{
+  "generated": "2026-09-24T10:52:20",
+  "boot": 400,
+  "rows": [
+    {
+      "root": "outputs/killtest",
+      "pair": [
+        "en",
+        "vi"
+      ],
+      "n_seeds": 5,
+      "capacity": 0.095,
+      "ci": [
+        0.085,
+        0.11
+      ],
+      "censored_replicates": 0,
+      "n_ok": 400,
+      "r_nat": 0.05652,
+      "median": 0.095
+    },
+    {
+      "root": "outputs/pool/xlmr_large",
+      "pair": [
+        "en",
+        "vi"
+      ],
+      "n_seeds": 5,
+      "capacity": 0.165,
+      "ci": [
+        0.15987500000000002,
+        0.17500000000000002
+      ],
+      "censored_replicates": 0,
+      "n_ok": 400,
+      "r_nat": 0.0586,
+      "median": 0.165
+    },
+    {
+      "root": "outputs/pool/specialist_pair",
+      "pair": [
+        "en",
+        "vi"
+      ],
+      "n_seeds": 5,
+      "capacity": 0.07500000000000001,
+      "ci": [
+        0.065,
+        0.09000000000000001
+      ],
+      "censored_replicates": 0,
+      "n_ok": 400,
+      "r_nat": 0.0578,
+      "median": 0.07500000000000001
+    },
+    {
+      "root": "outputs/pool/llm_deepseek_flash",
+      "pair": [
+        "en",
+        "vi"
+      ],
+      "n_seeds": 1,
+      "capacity": 0.005,
+      "ci": [
+        0.005,
+        0.02
+      ],
+      "censored_replicates": 0,
+      "n_ok": 400,
+      "r_nat": 0.12761976047904192,
+      "median": 0.005
+    },
+    {
+      "root": "outputs/pool/llm_gemini31_flashlite",
+      "pair": [
+        "en",
+        "vi"
+      ],
+      "n_seeds": 1,
+      "capacity": 0.02,
+      "ci": [
+        0.005,
+        0.025
+      ],
+      "censored_replicates": 0,
+      "n_ok": 400,
+      "r_nat": 0.1026,
+      "median": 0.02
+    }
+  ]
+}

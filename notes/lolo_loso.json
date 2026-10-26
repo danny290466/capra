@@ -1,0 +1,237 @@
+{
+  "budget": 0.05,
+  "risk_targets": [
+    0.02,
+    0.03,
+    0.05,
+    0.1
+  ],
+  "controls": {
+    "lolo_zh (train en,de,uk,ru,ar,hi; score zh)": {
+      "en-zh": {
+        "n_seeds": 5,
+        "n_dev": {
+          "en": 3375,
+          "zh": 3380
+        },
+        "n_test": {
+          "en": 3375,
+          "zh": 3380
+        },
+        "accuracy": {
+          "en": 0.9582,
+          "zh": 0.6512
+        },
+        "auc": {
+          "en": 0.9926,
+          "zh": 0.7435
+        },
+        "pooled_gap_pp": -30.075,
+        "parity_first_gap_signed_pp": -29.491,
+        "parity_first_gap_abs_pp": 29.491,
+        "queue_share_second": 1.0,
+        "load_items_pp": 4.39,
+        "min_parity_capacity_pct": null,
+        "parity_load_by_risk_target_pct": {
+          "0.02": 52.76,
+          "0.03": 50.39,
+          "0.05": 48.82,
+          "0.10": 48.48
+        }
+      }
+    },
+    "lolo_ru (train en,de,uk,ar,hi,zh; score ru)": {
+      "en-ru": {
+        "n_seeds": 5,
+        "n_dev": {
+          "en": 3375,
+          "ru": 3375
+        },
+        "n_test": {
+          "en": 3375,
+          "ru": 3375
+        },
+        "accuracy": {
+          "en": 0.957,
+          "ru": 0.9298
+        },
+        "auc": {
+          "en": 0.9909,
+          "ru": 0.9825
+        },
+        "pooled_gap_pp": -0.912,
+        "parity_first_gap_signed_pp": 0.013,
+        "parity_first_gap_abs_pp": 0.013,
+        "queue_share_second": 0.831,
+        "load_items_pp": 5.6,
+        "min_parity_capacity_pct": 3.0,
+        "parity_load_by_risk_target_pct": {
+          "0.02": 9.96,
+          "0.03": 5.59,
+          "0.05": 1.29,
+          "0.10": 0.0
+        }
+      }
+    },
+    "loso_cyr (train en,de,ar,hi,zh; score ru,uk)": {
+      "en-ru": {
+        "n_seeds": 5,
+        "n_dev": {
+          "en": 3375,
+          "ru": 3375
+        },
+        "n_test": {
+          "en": 3375,
+          "ru": 3375
+        },
+        "accuracy": {
+          "en": 0.9526,
+          "ru": 0.8904
+        },
+        "auc": {
+          "en": 0.9909,
+          "ru": 0.9595
+        },
+        "pooled_gap_pp": -4.712,
+        "parity_first_gap_signed_pp": -2.534,
+        "parity_first_gap_abs_pp": 2.534,
+        "queue_share_second": 0.997,
+        "load_items_pp": 5.63,
+        "min_parity_capacity_pct": 16.0,
+        "parity_load_by_risk_target_pct": {
+          "0.02": 27.32,
+          "0.03": 21.01,
+          "0.05": 10.37,
+          "0.10": 0.79
+        }
+      },
+      "en-uk": {
+        "n_seeds": 5,
+        "n_dev": {
+          "en": 3375,
+          "uk": 3375
+        },
+        "n_test": {
+          "en": 3375,
+          "uk": 3375
+        },
+        "accuracy": {
+          "en": 0.9526,
+          "uk": 0.7102
+        },
+        "auc": {
+          "en": 0.9909,
+          "uk": 0.8011
+        },
+        "pooled_gap_pp": -23.063,
+        "parity_first_gap_signed_pp": -21.887,
+        "parity_first_gap_abs_pp": 21.887,
+        "queue_share_second": 0.997,
+        "load_items_pp": 5.67,
+        "min_parity_capacity_pct": null,
+        "parity_load_by_risk_target_pct": {
+          "0.02": 52.4,
+          "0.03": 50.21,
+          "0.05": 47.57,
+          "0.10": 41.41
+        }
+      }
+    }
+  },
+  "shipped": {
+    "en-ru": {
+      "n_seeds": 5,
+      "n_dev": {
+        "en": 3375,
+        "ru": 3375
+      },
+      "n_test": {
+        "en": 3375,
+        "ru": 3375
+      },
+      "accuracy": {
+        "en": 0.957,
+        "ru": 0.9618
+      },
+      "auc": {
+        "en": 0.9908,
+        "ru": 0.9939
+      },
+      "pooled_gap_pp": 0.742,
+      "parity_first_gap_signed_pp": 0.07,
+      "parity_first_gap_abs_pp": 0.07,
+      "queue_share_second": 0.372,
+      "load_items_pp": 5.82,
+      "min_parity_capacity_pct": 1.5,
+      "parity_load_by_risk_target_pct": {
+        "0.02": 3.2,
+        "0.03": 0.76,
+        "0.05": 0.0,
+        "0.10": 0.0
+      }
+    },
+    "en-uk": {
+      "n_seeds": 5,
+      "n_dev": {
+        "en": 3375,
+        "uk": 3375
+      },
+      "n_test": {
+        "en": 3375,
+        "uk": 3375
+      },
+      "accuracy": {
+        "en": 0.957,
+        "uk": 0.9031
+      },
+      "auc": {
+        "en": 0.9908,
+        "uk": 0.962
+      },
+      "pooled_gap_pp": -3.804,
+      "parity_first_gap_signed_pp": -1.856,
+      "parity_first_gap_abs_pp": 1.856,
+      "queue_share_second": 0.989,
+      "load_items_pp": 5.6,
+      "min_parity_capacity_pct": 9.0,
+      "parity_load_by_risk_target_pct": {
+        "0.02": 15.69,
+        "0.03": 10.36,
+        "0.05": 5.82,
+        "0.10": 0.0
+      }
+    },
+    "en-zh": {
+      "n_seeds": 5,
+      "n_dev": {
+        "en": 3375,
+        "zh": 3380
+      },
+      "n_test": {
+        "en": 3375,
+        "zh": 3380
+      },
+      "accuracy": {
+        "en": 0.957,
+        "zh": 0.7426
+      },
+      "auc": {
+        "en": 0.9908,
+        "zh": 0.8217
+      },
+      "pooled_gap_pp": -19.204,
+      "parity_first_gap_signed_pp": -18.832,
+      "parity_first_gap_abs_pp": 18.832,
+      "queue_share_second": 0.989,
+      "load_items_pp": 5.5,
+      "min_parity_capacity_pct": null,
+      "parity_load_by_risk_target_pct": {
+        "0.02": 51.82,
+        "0.03": 48.09,
+        "0.05": 44.93,
+        "0.10": 34.59
+      }
+    }
+  },
+  "note": "the shipped all-seven model scores the same pair with the held-out language IN its training mixture; every control removes it"
+}
