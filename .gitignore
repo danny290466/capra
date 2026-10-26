@@ -2,3 +2,8 @@ __pycache__/
 *.pyc
 .DS_Store
 logs/
+
+# Held out of the release: the hosted moderator repeat pass ships as aggregate + draws + census only
+# (Data availability). Kept locally so the analysis can be re-run.
+outputs/killtest/rebuild_llm/probs.npz
+outputs/killtest/rebuild_llm/raw_*.jsonl
