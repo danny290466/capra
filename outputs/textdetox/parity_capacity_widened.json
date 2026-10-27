@@ -1,0 +1,235 @@
+{
+ "generated": "2026-10-27T12:05:45",
+ "grids": [
+  [
+   0.4,
+   80
+  ],
+  [
+   0.8,
+   160
+  ],
+  [
+   0.95,
+   190
+  ]
+ ],
+ "cells": {
+  "xlmr_base|de": {
+   "out_root": "outputs/textdetox/xlmr_base",
+   "pair": "en/de",
+   "seeds": 5,
+   "capacity_pct": {
+    "0.40": 12.5,
+    "0.80": 12.5,
+    "0.95": 12.5
+   },
+   "r_nat_pct": 3.585,
+   "r_cap_pct": 3.545
+  },
+  "xlmr_base|uk": {
+   "out_root": "outputs/textdetox/xlmr_base",
+   "pair": "en/uk",
+   "seeds": 5,
+   "capacity_pct": {
+    "0.40": 9.0,
+    "0.80": 9.0,
+    "0.95": 9.0
+   },
+   "r_nat_pct": 3.585,
+   "r_cap_pct": 3.415
+  },
+  "xlmr_base|ar": {
+   "out_root": "outputs/textdetox/xlmr_base",
+   "pair": "en/ar",
+   "seeds": 5,
+   "capacity_pct": {
+    "0.40": null,
+    "0.80": 43.5,
+    "0.95": 43.5
+   },
+   "r_nat_pct": 3.585,
+   "r_cap_pct": 3.475
+  },
+  "xlmr_base|hi": {
+   "out_root": "outputs/textdetox/xlmr_base",
+   "pair": "en/hi",
+   "seeds": 5,
+   "capacity_pct": {
+    "0.40": 5.0,
+    "0.80": 5.0,
+    "0.95": 5.0
+   },
+   "r_nat_pct": 3.585,
+   "r_cap_pct": 3.513
+  },
+  "xlmr_base|zh": {
+   "out_root": "outputs/textdetox/xlmr_base",
+   "pair": "en/zh",
+   "seeds": 5,
+   "capacity_pct": {
+    "0.40": null,
+    "0.80": 47.0,
+    "0.95": 47.0
+   },
+   "r_nat_pct": 3.585,
+   "r_cap_pct": 3.391
+  },
+  "xlmr_base|ru": {
+   "out_root": "outputs/textdetox/xlmr_base",
+   "pair": "en/ru",
+   "seeds": 5,
+   "capacity_pct": {
+    "0.40": 1.5,
+    "0.80": 1.5,
+    "0.95": 1.5
+   },
+   "r_nat_pct": 2.637,
+   "r_cap_pct": 2.59
+  },
+  "xlmr_large|de": {
+   "out_root": "outputs/textdetox/xlmr_large",
+   "pair": "en/de",
+   "seeds": 5,
+   "capacity_pct": {
+    "0.40": 22.0,
+    "0.80": 22.0,
+    "0.95": 22.0
+   },
+   "r_nat_pct": 2.074,
+   "r_cap_pct": 2.058
+  },
+  "xlmr_large|uk": {
+   "out_root": "outputs/textdetox/xlmr_large",
+   "pair": "en/uk",
+   "seeds": 5,
+   "capacity_pct": {
+    "0.40": 20.0,
+    "0.80": 20.0,
+    "0.95": 20.0
+   },
+   "r_nat_pct": 2.074,
+   "r_cap_pct": 1.968
+  },
+  "xlmr_large|ar": {
+   "out_root": "outputs/textdetox/xlmr_large",
+   "pair": "en/ar",
+   "seeds": 5,
+   "capacity_pct": {
+    "0.40": null,
+    "0.80": 42.5,
+    "0.95": 42.5
+   },
+   "r_nat_pct": 2.074,
+   "r_cap_pct": 1.758
+  },
+  "xlmr_large|hi": {
+   "out_root": "outputs/textdetox/xlmr_large",
+   "pair": "en/hi",
+   "seeds": 5,
+   "capacity_pct": {
+    "0.40": 11.0,
+    "0.80": 11.0,
+    "0.95": 11.0
+   },
+   "r_nat_pct": 2.074,
+   "r_cap_pct": 2.074
+  },
+  "xlmr_large|zh": {
+   "out_root": "outputs/textdetox/xlmr_large",
+   "pair": "en/zh",
+   "seeds": 5,
+   "capacity_pct": {
+    "0.40": null,
+    "0.80": 48.5,
+    "0.95": 48.5
+   },
+   "r_nat_pct": 2.074,
+   "r_cap_pct": 1.701
+  },
+  "xlmr_large|ru": {
+   "out_root": "outputs/textdetox/xlmr_large",
+   "pair": "en/ru",
+   "seeds": 5,
+   "capacity_pct": {
+    "0.40": 0.5,
+    "0.80": 0.5,
+    "0.95": 0.5
+   },
+   "r_nat_pct": 1.985,
+   "r_cap_pct": 1.785
+  },
+  "llm_deepseek_flash|de": {
+   "out_root": "outputs/textdetox/llm_deepseek_flash",
+   "pair": "en/de",
+   "seeds": 1,
+   "capacity_pct": {
+    "0.40": 31.5,
+    "0.80": 31.5,
+    "0.95": 31.5
+   },
+   "r_nat_pct": 3.111,
+   "r_cap_pct": 1.994
+  },
+  "llm_deepseek_flash|uk": {
+   "out_root": "outputs/textdetox/llm_deepseek_flash",
+   "pair": "en/uk",
+   "seeds": 1,
+   "capacity_pct": {
+    "0.40": null,
+    "0.80": 50.5,
+    "0.95": 50.5
+   },
+   "r_nat_pct": 3.111,
+   "r_cap_pct": 1.994
+  },
+  "llm_deepseek_flash|ar": {
+   "out_root": "outputs/textdetox/llm_deepseek_flash",
+   "pair": "en/ar",
+   "seeds": 1,
+   "capacity_pct": {
+    "0.40": 27.0,
+    "0.80": 27.0,
+    "0.95": 27.0
+   },
+   "r_nat_pct": 3.111,
+   "r_cap_pct": 2.981
+  },
+  "llm_deepseek_flash|hi": {
+   "out_root": "outputs/textdetox/llm_deepseek_flash",
+   "pair": "en/hi",
+   "seeds": 1,
+   "capacity_pct": {
+    "0.40": 29.0,
+    "0.80": 29.0,
+    "0.95": 29.0
+   },
+   "r_nat_pct": 3.111,
+   "r_cap_pct": 2.981
+  },
+  "llm_deepseek_flash|zh": {
+   "out_root": "outputs/textdetox/llm_deepseek_flash",
+   "pair": "en/zh",
+   "seeds": 1,
+   "capacity_pct": {
+    "0.40": null,
+    "0.80": 41.5,
+    "0.95": 41.5
+   },
+   "r_nat_pct": 3.111,
+   "r_cap_pct": 2.981
+  },
+  "llm_deepseek_flash|ru": {
+   "out_root": "outputs/textdetox/llm_deepseek_flash",
+   "pair": "en/ru",
+   "seeds": 1,
+   "capacity_pct": {
+    "0.40": 17.5,
+    "0.80": 17.5,
+    "0.95": 17.5
+   },
+   "r_nat_pct": 3.111,
+   "r_cap_pct": 2.304
+  }
+ }
+}
